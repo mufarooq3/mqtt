@@ -1,0 +1,181 @@
+#uploadPassport{
+	/* margin:30px 200px; padding:15px;
+	font-weight:bold; font-size:1.3em;
+	font-family:Arial, Helvetica, sans-serif;
+	text-align:center;
+	background:#f2f2f2;
+	color:#3366cc;
+	border:1px solid #ccc;
+	width:150px;
+	cursor:pointer !important;
+	-moz-border-radius:5px; -webkit-border-radius:5px; */
+}
+
+
+#uploadAdharCard{
+	/* margin:30px 200px; padding:15px;
+	font-weight:bold; font-size:1.3em;
+	font-family:Arial, Helvetica, sans-serif;
+	text-align:center;
+	background:#f2f2f2;
+	color:#3366cc;
+	border:1px solid #ccc;
+	width:150px;
+	cursor:pointer !important;
+	-moz-border-radius:5px; -webkit-border-radius:5px; */
+}
+
+#uploadRashanCard{
+	/* margin:30px 200px; padding:15px;
+	font-weight:bold; font-size:1.3em;
+	font-family:Arial, Helvetica, sans-serif;
+	text-align:center;
+	background:#f2f2f2;
+	color:#3366cc;
+	border:1px solid #ccc;
+	width:150px;
+	cursor:pointer !important;
+	-moz-border-radius:5px; -webkit-border-radius:5px; */
+}
+
+#uploadPanCard{
+	/* margin:30px 200px; padding:15px;
+	font-weight:bold; font-size:1.3em;
+	font-family:Arial, Helvetica, sans-serif;
+	text-align:center;
+	background:#f2f2f2;
+	color:#3366cc;
+	border:1px solid #ccc;
+	width:150px;
+	cursor:pointer !important;
+	-moz-border-radius:5px; -webkit-border-radius:5px; */
+}
+
+
+#uploadDrivingLicence{
+	/* margin:30px 200px; padding:15px;
+	font-weight:bold; font-size:1.3em;
+	font-family:Arial, Helvetica, sans-serif;
+	text-align:center;
+	background:#f2f2f2;
+	color:#3366cc;
+	border:1px solid #ccc;
+	width:150px;
+	cursor:pointer !important;
+	-moz-border-radius:5px; -webkit-border-radius:5px; */
+}
+
+
+#uploadElectionCard{
+	/* margin:30px 200px; padding:15px;
+	font-weight:bold; font-size:1.3em;
+	font-family:Arial, Helvetica, sans-serif;
+	text-align:center;
+	background:#f2f2f2;
+	color:#3366cc;
+	border:1px solid #ccc;
+	width:150px;
+	cursor:pointer !important;
+	-moz-border-radius:5px; -webkit-border-radius:5px; */
+}
+
+
+.darkbg{
+	background:#ddd !important;
+}
+#statusRashanCard{
+	font-family:Arial; padding:5px;
+}
+
+#statusPanCard{
+	font-family:Arial; padding:5px;
+}
+
+#statusPassport{
+	font-family:Arial; padding:5px;
+}
+
+ul#filesRashanCard{ list-style:none; padding:0; margin:0; }
+ul#filesRashanCard li{ padding:10px; margin-bottom:2px;   float:left; margin-right:10px;}
+ul#filesRashanCard li img{ max-width:80px; max-height:50px; }
+
+
+ul#filesPanCard{ list-style:none; padding:0; margin:0; }
+ul#filesPanCard li{ padding:10px; margin-bottom:2px;   float:left; margin-right:10px;}
+ul#filesPanCard li img{ max-width:80px; max-height:50px; }
+
+
+ul#filesElectionCard{ list-style:none; padding:0; margin:0; }
+ul#filesElectionCard li{ padding:10px; margin-bottom:2px;   float:left; margin-right:10px;}
+ul#filesElectionCard li img{ max-width:80px; max-height:50px; }
+
+
+ul#filesDrivingLicence{ list-style:none; padding:0; margin:0; }
+ul#filesDrivingLicence li{ padding:10px; margin-bottom:2px;  float:left; margin-right:10px;}
+ul#filesDrivingLicence li img{ max-width:80px; max-height:50px; }
+
+
+ul#filesAdharCard{ list-style:none; padding:0; margin:0; }
+ul#filesAdharCard li{ padding:10px; margin-bottom:2px;  float:left; margin-right:10px;}
+ul#filesAdharCard li img{ max-width:80px; max-height:50px; }
+
+
+
+ul#filesPassport{ list-style:none; padding:0; margin:0; }
+ul#filesPassport li{ padding:10px; margin-bottom:2px;  float:left; margin-right:10px;}
+ul#filesPassport li img{ max-width:80px; max-height:50px; }
+
+
+
+
+
+
+
+
+
+#statusRashanCardsub{
+	font-family:Arial; padding:5px;
+}
+
+#statusPanCardsub{
+	font-family:Arial; padding:5px;
+}
+
+#statusPassportsub{
+	font-family:Arial; padding:5px;
+}
+
+ul#filesRashanCardsub{ list-style:none; padding:0; margin:0; }
+ul#filesRashanCardsub li{ padding:10px; margin-bottom:2px;   float:left; margin-right:10px;}
+ul#filesRashanCardsub li img{ max-width:80px; max-height:50px; }
+
+
+ul#filesPanCardsub{ list-style:none; padding:0; margin:0; }
+ul#filesPanCardsub li{ padding:10px; margin-bottom:2px;   float:left; margin-right:10px;}
+ul#filesPanCardsub li img{ max-width:80px; max-height:50px; }
+
+
+ul#filesElectionCardsub{ list-style:none; padding:0; margin:0; }
+ul#filesElectionCardsub li{ padding:10px; margin-bottom:2px;   float:left; margin-right:10px;}
+ul#filesElectionCardsub li img{ max-width:80px; max-height:50px; }
+
+
+ul#filesDrivingLicencesub{ list-style:none; padding:0; margin:0; }
+ul#filesDrivingLicencesub li{ padding:10px; margin-bottom:2px;  float:left; margin-right:10px;}
+ul#filesDrivingLicencesub li img{ max-width:80px; max-height:50px; }
+
+
+ul#filesAdharCardsub{ list-style:none; padding:0; margin:0; }
+ul#filesAdharCardsub li{ padding:10px; margin-bottom:2px;  float:left; margin-right:10px;}
+ul#filesAdharCardsub li img{ max-width:80px; max-height:50px; }
+
+
+
+ul#filesPassportsub{ list-style:none; padding:0; margin:0; }
+ul#filesPassportsub li{ padding:10px; margin-bottom:2px;  float:left; margin-right:10px;}
+ul#filesPassportsub li img{ max-width:80px; max-height:50px; }
+
+
+
+.success{ background:#99f099; border:1px solid #339933; }
+.error{ background:#f0c6c3; border:1px solid #cc6622; }

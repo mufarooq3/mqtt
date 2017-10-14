@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Mqtt\MQTT;
+use App\User;
 use Illuminate\Http\Request;
 
 use App\Http\Requests;
@@ -137,14 +138,70 @@ class MqttController extends Controller
     }
 
     public function emqhook(Request $request){
+        DB::select("insert into test(`web_hook`) values('".$request->getContent()."')");
         $r = json_decode($request->getContent());
         if($r->action == "client_connected"){
-            $q = "insert into test(`client_id`) values ('".$r->client_id."')";
+            $this->client_connected($r);
+        }
+        else if($r->action == "client_disconnected"){
+            $this->client_disconnected($r);
+        }
+    }
 
+    function client_connected($r){
+        $user=User::where('gcm_id',$r->client_id)->first();
+        if(!$user){
+            $user=new User();
+            $user->gcm_id=$r->client_id;
+            $user->is_active=1;
+            $user->username=$this->get_username($r->client_id);
+
+//Here we write code for getting other fields of database from another API
+
+
+            $user->save();
         }
         else{
-            $q = "insert into test(`client_id`) values ('".$r->action."')";
+            $user->is_active=1;
+            $user->update();
         }
-        DB::select($q);
+    }
+
+    function get_username($client_id){
+        $curl = curl_init();
+
+        curl_setopt_array($curl, array(
+            CURLOPT_PORT => "18083",
+            CURLOPT_URL => "http://174.138.30.204:18083/api/v2/clients/".$client_id,
+            CURLOPT_RETURNTRANSFER => true,
+            CURLOPT_ENCODING => "",
+            CURLOPT_MAXREDIRS => 10,
+            CURLOPT_TIMEOUT => 30,
+            CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+            CURLOPT_CUSTOMREQUEST => "GET",
+            CURLOPT_POSTFIELDS => '',
+            CURLOPT_HTTPHEADER => array(
+                "cache-control: no-cache",
+                ),
+            ));
+
+        $response = curl_exec($curl);
+        $err = curl_error($curl);
+
+        curl_close($curl);
+
+        if ($err)
+            echo "cURL Error #:" . $err;
+
+        return (json_decode($response)->result->objects[0]->username);
+    }
+
+    function client_disconnected($r){
+        $user=User::where("gcm_id",$r->client_id)->first();
+//        dd($user);
+        if($user){
+            $user->is_active=0;
+            $user->update();
+        }
     }
 }

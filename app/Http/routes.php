@@ -13,7 +13,7 @@
 
 
 Route::post('/publish', 'MqttController@mass_noty');
-Route::get('/emqhook', 'MqttController@emqhook');
+Route::post('/emqhook', 'MqttController@emqhook');
 Route::get('/subscribe', 'MqttController@subscribe');
 
 

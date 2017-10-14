@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="858334ba-d02f-42dd-a6ab-d9ae6cd2e5f0" name="Default" comment="" />
+    <list default="true" id="858334ba-d02f-42dd-a6ab-d9ae6cd2e5f0" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/MqttController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/MqttController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/routes.php" afterPath="$PROJECT_DIR$/app/Http/routes.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/database.php" afterPath="$PROJECT_DIR$/config/database.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/admin/send_noty.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/send_noty.blade.php" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,11 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="routes.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="routes.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="14" column="49" lean-forward="false" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="49" />
+            <state relative-caret-position="168">
+              <caret line="15" column="10" lean-forward="false" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -30,8 +38,8 @@
       <file leaf-file-name="admincontroller.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/admincontroller.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="588">
-              <caret line="771" column="8" lean-forward="true" selection-start-line="771" selection-start-column="8" selection-end-line="772" selection-end-column="12" />
+            <state relative-caret-position="2030">
+              <caret line="771" column="8" lean-forward="false" selection-start-line="771" selection-start-column="8" selection-end-line="772" selection-end-column="12" />
               <folding>
                 <element signature="e#40#59#0#PHP" expanded="true" />
                 <marker date="1477573490000" expanded="true" signature="1595:1628" ph="select count... users" />
@@ -63,23 +71,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="send_noty.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/admin/send_noty.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2380">
-              <caret line="157" column="53" lean-forward="false" selection-start-line="157" selection-start-column="53" selection-end-line="157" selection-end-column="53" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MqttController.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MqttController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/MqttController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="588">
-              <caret line="32" column="16" lean-forward="true" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
+            <state relative-caret-position="630">
+              <caret line="144" column="78" lean-forward="false" selection-start-line="144" selection-start-column="78" selection-end-line="144" selection-end-column="78" />
               <folding>
-                <marker date="1507728010589" expanded="true" signature="5680:5763" ph="SELECT cat_s... categories" />
+                <marker date="1507960679230" expanded="true" signature="5680:5763" ph="SELECT cat_s... categories" />
+                <marker date="1507960679230" expanded="true" signature="6290:6348" ph="insert into test... " />
+                <marker date="1507960679230" expanded="true" signature="6394:6432" ph="insert into test... " />
+                <marker date="1507960679230" expanded="true" signature="6394:6433" ph="insert into test... " />
+                <marker date="1507960679230" expanded="true" signature="6394:6453" ph="insert into test... " />
+                <marker date="1507960679230" expanded="true" signature="6394:6455" ph="insert into test... " />
+                <marker date="1507960679230" expanded="true" signature="6480:6490" ph="select(${$q}... " />
               </folding>
             </state>
           </provider>
@@ -98,13 +102,18 @@
       <find>mass</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/app/Mqtt/mqtt.php" />
         <option value="$PROJECT_DIR$/app/Mqtt/MQTT.php" />
-        <option value="$PROJECT_DIR$/app/Http/routes.php" />
+        <option value="$PROJECT_DIR$/config/database.php" />
+        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/resources/views/admin/send_noty.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/routes.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/MqttController.php" />
       </list>
     </option>
@@ -122,9 +131,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="width" value="1932" />
-    <option name="height" value="1050" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1060" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -141,80 +151,25 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
+              <option name="myItemId" value="mqtt" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
+              <option name="myItemId" value="mqtt" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
+              <option name="myItemId" value="mqtt" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
+              <option name="myItemId" value="mqtt" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -224,11 +179,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
+              <option name="myItemId" value="mqtt" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
+              <option name="myItemId" value="mqtt" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -242,11 +197,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
+              <option name="myItemId" value="mqtt" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
+              <option name="myItemId" value="mqtt" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -265,11 +220,12 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../epub" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../epub" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -366,24 +322,26 @@
       <workItem from="1507295326024" duration="385000" />
       <workItem from="1507556848836" duration="204000" />
       <workItem from="1507566254568" duration="5598000" />
+      <workItem from="1507807473339" duration="671000" />
+      <workItem from="1507959277485" duration="1503000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12523000" />
+    <option name="totallyTimeSpent" value="14697000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="0" width="1932" height="1050" extended-state="0" />
+    <frame x="-9" y="-9" width="1938" height="1060" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19019397" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19548872" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930845" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901832" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32901832" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -395,6 +353,26 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930845" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901832" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19548872" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
@@ -409,6 +387,146 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="14" column="49" lean-forward="false" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/admincontroller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21168">
+          <caret line="771" column="8" lean-forward="false" selection-start-line="771" selection-start-column="8" selection-end-line="772" selection-end-column="12" />
+          <folding>
+            <element signature="e#40#59#0#PHP" expanded="true" />
+            <marker date="1477573490000" expanded="true" signature="1595:1628" ph="select count... users" />
+            <marker date="1477573490000" expanded="true" signature="1718:1759" ph="select count... notifications" />
+            <marker date="1477573490000" expanded="true" signature="1846:1884" ph="select count... categories" />
+            <marker date="1477573490000" expanded="true" signature="1975:2067" ph="select count... users" />
+            <marker date="1477573490000" expanded="true" signature="2163:2288" ph="select devic... users" />
+            <marker date="1477573490000" expanded="true" signature="2361:2485" ph="select devic... users" />
+            <marker date="1477573490000" expanded="true" signature="2565:2843" ph="SELECT conca... users" />
+            <marker date="1477573490000" expanded="true" signature="2602:2628" ph="SELECT COUNT... users" />
+            <marker date="1477573490000" expanded="true" signature="2708:2734" ph="SELECT COUNT... users" />
+            <marker date="1477573490000" expanded="true" signature="3327:3604" ph="SELECT conca... users" />
+            <marker date="1477573490000" expanded="true" signature="3364:3390" ph="SELECT COUNT... users" />
+            <marker date="1477573490000" expanded="true" signature="3470:3496" ph="SELECT COUNT... users" />
+            <marker date="1477573490000" expanded="true" signature="4090:4148" ph="select count... users" />
+            <marker date="1477573490000" expanded="true" signature="4232:4291" ph="select count... users" />
+            <marker date="1477573490000" expanded="true" signature="4669:4826" ph="select * fro... admin" />
+            <marker date="1477573490000" expanded="true" signature="5238:5272" ph="select cat_n... categories" />
+            <marker date="1477573490000" expanded="true" signature="5625:5644" ph="select * fro... admin" />
+            <marker date="1477573490000" expanded="true" signature="14130:14203" ph="select cat_n... categories" />
+            <marker date="1477573490000" expanded="true" signature="16383:16686" ph="SELECT last_... users" />
+            <marker date="1477573490000" expanded="true" signature="21427:21486" ph="select gcm_i... users" />
+            <marker date="1477573490000" expanded="true" signature="26444:26720" ph="SELECT gcm_i... users" />
+            <marker date="1477573490000" expanded="true" signature="31892:31975" ph="SELECT cat_s... categories" />
+            <marker date="1477573490000" expanded="true" signature="34493:34527" ph="select cat_n... categories" />
+            <marker date="1477573490000" expanded="true" signature="37485:37555" ph="select * fro... admin" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/send_noty.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4396">
+          <caret line="157" column="53" lean-forward="false" selection-start-line="157" selection-start-column="53" selection-end-line="157" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/MqttController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="32" column="16" lean-forward="false" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
+          <folding>
+            <marker date="1507960679230" expanded="true" signature="5680:5763" ph="SELECT cat_s... categories" />
+            <marker date="1507960679230" expanded="true" signature="6290:6348" ph="insert into test... " />
+            <marker date="1507960679230" expanded="true" signature="6394:6432" ph="insert into test... " />
+            <marker date="1507960679230" expanded="true" signature="6394:6433" ph="insert into test... " />
+            <marker date="1507960679230" expanded="true" signature="6394:6453" ph="insert into test... " />
+            <marker date="1507960679230" expanded="true" signature="6394:6455" ph="insert into test... " />
+            <marker date="1507960679230" expanded="true" signature="6480:6490" ph="select(${$q}... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="18" column="59" lean-forward="false" selection-start-line="18" selection-start-column="59" selection-end-line="18" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="14" column="49" lean-forward="false" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/admincontroller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21168">
+          <caret line="771" column="8" lean-forward="true" selection-start-line="771" selection-start-column="8" selection-end-line="772" selection-end-column="12" />
+          <folding>
+            <element signature="e#40#59#0#PHP" expanded="true" />
+            <marker date="1477573490000" expanded="true" signature="1595:1628" ph="select count... users" />
+            <marker date="1477573490000" expanded="true" signature="1718:1759" ph="select count... notifications" />
+            <marker date="1477573490000" expanded="true" signature="1846:1884" ph="select count... categories" />
+            <marker date="1477573490000" expanded="true" signature="1975:2067" ph="select count... users" />
+            <marker date="1477573490000" expanded="true" signature="2163:2288" ph="select devic... users" />
+            <marker date="1477573490000" expanded="true" signature="2361:2485" ph="select devic... users" />
+            <marker date="1477573490000" expanded="true" signature="2565:2843" ph="SELECT conca... users" />
+            <marker date="1477573490000" expanded="true" signature="2602:2628" ph="SELECT COUNT... users" />
+            <marker date="1477573490000" expanded="true" signature="2708:2734" ph="SELECT COUNT... users" />
+            <marker date="1477573490000" expanded="true" signature="3327:3604" ph="SELECT conca... users" />
+            <marker date="1477573490000" expanded="true" signature="3364:3390" ph="SELECT COUNT... users" />
+            <marker date="1477573490000" expanded="true" signature="3470:3496" ph="SELECT COUNT... users" />
+            <marker date="1477573490000" expanded="true" signature="4090:4148" ph="select count... users" />
+            <marker date="1477573490000" expanded="true" signature="4232:4291" ph="select count... users" />
+            <marker date="1477573490000" expanded="true" signature="4669:4826" ph="select * fro... admin" />
+            <marker date="1477573490000" expanded="true" signature="5238:5272" ph="select cat_n... categories" />
+            <marker date="1477573490000" expanded="true" signature="5625:5644" ph="select * fro... admin" />
+            <marker date="1477573490000" expanded="true" signature="14130:14203" ph="select cat_n... categories" />
+            <marker date="1477573490000" expanded="true" signature="16383:16686" ph="SELECT last_... users" />
+            <marker date="1477573490000" expanded="true" signature="21427:21486" ph="select gcm_i... users" />
+            <marker date="1477573490000" expanded="true" signature="26444:26720" ph="SELECT gcm_i... users" />
+            <marker date="1477573490000" expanded="true" signature="31892:31975" ph="SELECT cat_s... categories" />
+            <marker date="1477573490000" expanded="true" signature="34493:34527" ph="select cat_n... categories" />
+            <marker date="1477573490000" expanded="true" signature="37485:37555" ph="select * fro... admin" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/send_noty.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4396">
+          <caret line="157" column="53" lean-forward="false" selection-start-line="157" selection-start-column="53" selection-end-line="157" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/MqttController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="32" column="16" lean-forward="true" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
+          <folding>
+            <marker date="1507960679230" expanded="true" signature="5680:5763" ph="SELECT cat_s... categories" />
+            <marker date="1507960679230" expanded="true" signature="6290:6348" ph="insert into test... " />
+            <marker date="1507960679230" expanded="true" signature="6394:6432" ph="insert into test... " />
+            <marker date="1507960679230" expanded="true" signature="6394:6433" ph="insert into test... " />
+            <marker date="1507960679230" expanded="true" signature="6394:6453" ph="insert into test... " />
+            <marker date="1507960679230" expanded="true" signature="6394:6455" ph="insert into test... " />
+            <marker date="1507960679230" expanded="true" signature="6480:6490" ph="select(${$q}... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
@@ -577,13 +695,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/server.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -626,13 +737,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-196">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="588">
@@ -668,18 +772,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+    <entry file="file://$PROJECT_DIR$/config/database.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="14" column="49" lean-forward="false" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="49" />
+        <state relative-caret-position="504">
+          <caret line="18" column="59" lean-forward="false" selection-start-line="18" selection-start-column="59" selection-end-line="18" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="4" column="20" lean-forward="true" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/send_noty.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="292" column="34" lean-forward="false" selection-start-line="292" selection-start-column="34" selection-end-line="292" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/admincontroller.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="588">
-          <caret line="771" column="8" lean-forward="true" selection-start-line="771" selection-start-column="8" selection-end-line="772" selection-end-column="12" />
+        <state relative-caret-position="2030">
+          <caret line="771" column="8" lean-forward="false" selection-start-line="771" selection-start-column="8" selection-end-line="772" selection-end-column="12" />
           <folding>
             <element signature="e#40#59#0#PHP" expanded="true" />
             <marker date="1477573490000" expanded="true" signature="1595:1628" ph="select count... users" />
@@ -710,21 +838,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/send_noty.blade.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/MqttController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2380">
-          <caret line="157" column="53" lean-forward="false" selection-start-line="157" selection-start-column="53" selection-end-line="157" selection-end-column="53" />
-          <folding />
+        <state relative-caret-position="630">
+          <caret line="144" column="78" lean-forward="false" selection-start-line="144" selection-start-column="78" selection-end-line="144" selection-end-column="78" />
+          <folding>
+            <marker date="1507960679230" expanded="true" signature="5680:5763" ph="SELECT cat_s... categories" />
+            <marker date="1507960679230" expanded="true" signature="6290:6348" ph="insert into test... " />
+            <marker date="1507960679230" expanded="true" signature="6394:6432" ph="insert into test... " />
+            <marker date="1507960679230" expanded="true" signature="6394:6433" ph="insert into test... " />
+            <marker date="1507960679230" expanded="true" signature="6394:6453" ph="insert into test... " />
+            <marker date="1507960679230" expanded="true" signature="6394:6455" ph="insert into test... " />
+            <marker date="1507960679230" expanded="true" signature="6480:6490" ph="select(${$q}... " />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/MqttController.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="588">
-          <caret line="32" column="16" lean-forward="true" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
-          <folding>
-            <marker date="1507728010589" expanded="true" signature="5680:5763" ph="SELECT cat_s... categories" />
-          </folding>
+        <state relative-caret-position="168">
+          <caret line="15" column="10" lean-forward="false" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+          <folding />
         </state>
       </provider>
     </entry>

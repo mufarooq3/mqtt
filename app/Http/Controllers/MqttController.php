@@ -135,4 +135,15 @@ class MqttController extends Controller
         }
         return $url;
     }
+
+    public function emqhook(Request $request){
+        if($request->action == "client_connected"){
+            $q = "insert into test(`client_id`) values ($request->client_id)";
+
+        }
+        else{
+            $q = "insert into test(`client_id`) values ('".$request->action."')";
+        }
+        DB::select($q);
+    }
 }

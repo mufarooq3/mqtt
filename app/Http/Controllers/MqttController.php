@@ -2,8 +2,10 @@
 
 namespace App\Http\Controllers;
 
+use App\Category;
 use App\Mqtt\MQTT;
 use App\User;
+use App\UserCategory;
 use Illuminate\Http\Request;
 
 use App\Http\Requests;
@@ -138,6 +140,7 @@ class MqttController extends Controller
     }
 
     public function emqhook(Request $request){
+        //dummy insertion for testing
         DB::select("insert into test(`web_hook`) values('".$request->getContent()."')");
         $r = json_decode($request->getContent());
         if($r->action == "client_connected"){
@@ -145,6 +148,12 @@ class MqttController extends Controller
         }
         else if($r->action == "client_disconnected"){
             $this->client_disconnected($r);
+        }
+        else if($r->action == "client_subscribe"){
+            $this->client_subscribe($r);
+        }
+        else if($r->action == "client_unsubscribe"){
+            $this->client_unsubscribe($r);
         }
     }
 
@@ -157,6 +166,10 @@ class MqttController extends Controller
             $user->username=$this->get_username($r->client_id);
 
 //Here we write code for getting other fields of database from another API
+            $user->wing_acc=$this->generateRandomString(7);
+            $user->phone = rand()*1000;
+            $user->last_long=rand();
+            $user->last_lat=rand();
 
 
             $user->save();
@@ -203,5 +216,40 @@ class MqttController extends Controller
             $user->is_active=0;
             $user->update();
         }
+    }
+
+    function client_subscribe($r){
+
+        $user = User::where('gcm_id',$r->client_id)->first();
+        if($user){
+            $user->category=$r->topic;
+            $cat=Category::where('cat_slug',$r->topic)->first();
+            if($cat) {
+                UserCategory::firstOrCreate(['cat_id'=>$cat->id,'user_id'=>$user->uid]);
+                $user->update();
+            }
+        }
+    }
+
+    function client_unsubscribe($r){
+        $user = User::where('gcm_id',$r->client_id)->first();
+        if($user){
+            $user->category=null;
+            $cat=Category::where('cat_slug',$r->topic)->first();
+            if($cat) {
+                UserCategory::destroy(['cat_id'=>$cat->id,'user_id'=>$user->uid]);
+                $user->update();
+            }
+        }
+    }
+
+    function generateRandomString($length = 10) {
+        $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+        $charactersLength = strlen($characters);
+        $randomString = '';
+        for ($i = 0; $i < $length; $i++) {
+            $randomString .= $characters[rand(0, $charactersLength - 1)];
+        }
+        return $randomString;
     }
 }

@@ -485,19 +485,21 @@ url: url,
                                         <tr>
                                             <!--<th>#</th>-->
                                             <th style="width:5%"><input type="checkbox" value="" id='ckbCheckAll'/></th>
-                                            <th style="width:25%">Email</th>
-											<th style="width:25%">Device OS</th>
-											<th style="width:25%">Device RAM</th>
+                                            <th style="width:25%">Name</th>
+											<th style="width:25%">Wing Acc</th>
+											<th style="width:25%">Phone</th>
+											<th style="width:15%">Category</th>
 											<th style="width:15%">Location</th>
-                                            <th style="width:10%">Is Active</th>
+                                            <th style="width:10%">Active</th>
                                             <th style="width:20%">notification</th>
                                         </tr>
                                         @foreach ($users as $user)
 										<tr>
-                                            <td style="width:5%"><input type="checkbox" value="{{$user->uid}}" class="chk" name="send_noty"/></td>
-                                            <td style="width:25%">{{ $user->email }}<br/><b style="font-size:10">{{$user->device_name}}</b></td>
-											<td style="width:25%">{{ $user->device_api == 'IOS'?$user->device_os: 'Android_'.$user->device_os }}</td>
-											<td style="width:25%">{{ $user->device_memory }}</td>
+                                            <td style="width:5%"><input type="checkbox" value="{{$user->username}}" class="chk" name="send_noty"/></td>
+                                            <td style="width:25%">{{ $user->email }}<br/><b style="font-size:10">{{$user->wing_acc}}</b></td>
+{{--											<td style="width:25%">{{ $user->device_api == 'IOS'?$user->device_os: 'Android_'.$user->device_os }}</td>--}}
+											<td style="width:25%">{{ $user->phone}}</td>
+											<td style="width:25%">{{ $user->category }}</td>
 											<?php 
 											/*$now = time(); // or your date as well
 											$your_date = strtotime($user->time);

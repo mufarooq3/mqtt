@@ -495,9 +495,10 @@ url: url,
                                         </tr>
                                         @foreach ($users as $user)
 										<tr>
-                                            <td style="width:5%"><input type="checkbox" value="{{$user->username}}" class="chk" name="send_noty"/></td>
-                                            <td style="width:25%">{{ $user->email }}<br/><b style="font-size:10">{{$user->wing_acc}}</b></td>
+                                            <td style="width:5%"><input type="checkbox" value="{{$user->email}}" class="chk" name="send_noty"/></td>
+                                            <td style="width:25%">{{ $user->username }}<br/><b style="font-size:10"></b></td>
 {{--											<td style="width:25%">{{ $user->device_api == 'IOS'?$user->device_os: 'Android_'.$user->device_os }}</td>--}}
+											<td style="width:25%">{{$user->wing_acc}}</td>
 											<td style="width:25%">{{ $user->phone}}</td>
 											<td style="width:25%">{{ $user->category }}</td>
 											<?php 

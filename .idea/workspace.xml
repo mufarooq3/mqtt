@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="858334ba-d02f-42dd-a6ab-d9ae6cd2e5f0" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/MqttController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/MqttController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/admincontroller.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/admincontroller.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/database.php" afterPath="$PROJECT_DIR$/config/database.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/admin/users.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/users.blade.php" />
@@ -36,40 +34,55 @@
       <file leaf-file-name="admincontroller.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/admincontroller.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="563">
-              <caret line="313" column="27" lean-forward="false" selection-start-line="313" selection-start-column="27" selection-end-line="313" selection-end-column="27" />
+            <state relative-caret-position="367">
+              <caret line="311" column="46" lean-forward="true" selection-start-line="311" selection-start-column="46" selection-end-line="311" selection-end-column="46" />
               <folding>
                 <element signature="e#40#59#0#PHP" expanded="true" />
-                <marker date="1508219130355" expanded="true" signature="1595:1628" ph="select count... users" />
-                <marker date="1508219130355" expanded="true" signature="1718:1759" ph="select count... notifications" />
-                <marker date="1508219130355" expanded="true" signature="1846:1884" ph="select count... categories" />
-                <marker date="1508219130355" expanded="true" signature="1975:2067" ph="select count... users" />
-                <marker date="1508219130355" expanded="true" signature="2163:2288" ph="select devic... users" />
-                <marker date="1508219130355" expanded="true" signature="2361:2485" ph="select devic... users" />
-                <marker date="1508219130355" expanded="true" signature="2565:2843" ph="SELECT conca... users" />
-                <marker date="1508219130355" expanded="true" signature="2602:2628" ph="SELECT COUNT... users" />
-                <marker date="1508219130355" expanded="true" signature="2708:2734" ph="SELECT COUNT... users" />
-                <marker date="1508219130355" expanded="true" signature="3327:3604" ph="SELECT conca... users" />
-                <marker date="1508219130355" expanded="true" signature="3364:3390" ph="SELECT COUNT... users" />
-                <marker date="1508219130355" expanded="true" signature="3470:3496" ph="SELECT COUNT... users" />
-                <marker date="1508219130355" expanded="true" signature="4090:4148" ph="select count... users" />
-                <marker date="1508219130355" expanded="true" signature="4232:4291" ph="select count... users" />
-                <marker date="1508219130355" expanded="true" signature="4669:4826" ph="select * fro... admin" />
-                <marker date="1508219130355" expanded="true" signature="5238:5272" ph="select cat_n... categories" />
-                <marker date="1508219130355" expanded="true" signature="5625:5644" ph="select * fro... admin" />
-                <marker date="1508219130355" expanded="true" signature="14158:14231" ph="select cat_n... categories" />
-                <marker date="1508219130355" expanded="true" signature="16411:16714" ph="SELECT last_... users" />
-                <marker date="1508219130355" expanded="true" signature="21455:21514" ph="select gcm_i... users" />
-                <marker date="1508219130355" expanded="true" signature="26472:26748" ph="SELECT gcm_i... users" />
-                <marker date="1508219130355" expanded="true" signature="31920:32003" ph="SELECT cat_s... categories" />
-                <marker date="1508219130355" expanded="true" signature="34521:34555" ph="select cat_n... categories" />
-                <marker date="1508219130355" expanded="true" signature="37513:37583" ph="select * fro... admin" />
+                <marker date="1508220606952" expanded="true" signature="1595:1628" ph="select count... users" />
+                <marker date="1508220606952" expanded="true" signature="1718:1759" ph="select count... notifications" />
+                <marker date="1508220606952" expanded="true" signature="1846:1884" ph="select count... categories" />
+                <marker date="1508220606952" expanded="true" signature="1975:2067" ph="select count... users" />
+                <marker date="1508220606952" expanded="true" signature="2163:2288" ph="select devic... users" />
+                <marker date="1508220606952" expanded="true" signature="2361:2485" ph="select devic... users" />
+                <marker date="1508220606952" expanded="true" signature="2565:2843" ph="SELECT conca... users" />
+                <marker date="1508220606952" expanded="true" signature="2602:2628" ph="SELECT COUNT... users" />
+                <marker date="1508220606952" expanded="true" signature="2708:2734" ph="SELECT COUNT... users" />
+                <marker date="1508220606952" expanded="true" signature="3327:3604" ph="SELECT conca... users" />
+                <marker date="1508220606952" expanded="true" signature="3364:3390" ph="SELECT COUNT... users" />
+                <marker date="1508220606952" expanded="true" signature="3470:3496" ph="SELECT COUNT... users" />
+                <marker date="1508220606952" expanded="true" signature="4090:4148" ph="select count... users" />
+                <marker date="1508220606952" expanded="true" signature="4232:4291" ph="select count... users" />
+                <marker date="1508220606952" expanded="true" signature="4669:4826" ph="select * fro... admin" />
+                <marker date="1508220606952" expanded="true" signature="5238:5272" ph="select cat_n... categories" />
+                <marker date="1508220606952" expanded="true" signature="5625:5644" ph="select * fro... admin" />
+                <marker date="1508220606952" expanded="true" signature="14160:14233" ph="select cat_n... categories" />
+                <marker date="1508220606952" expanded="true" signature="16413:16716" ph="SELECT last_... users" />
+                <marker date="1508220606952" expanded="true" signature="21457:21516" ph="select gcm_i... users" />
+                <marker date="1508220606952" expanded="true" signature="26474:26750" ph="SELECT gcm_i... users" />
+                <marker date="1508220606952" expanded="true" signature="31922:32005" ph="SELECT cat_s... categories" />
+                <marker date="1508220606952" expanded="true" signature="34523:34557" ph="select cat_n... categories" />
+                <marker date="1508220606952" expanded="true" signature="37515:37585" ph="select * fro... admin" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MqttController.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="users.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/admin/users.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="498" column="80" lean-forward="false" selection-start-line="498" selection-start-column="80" selection-end-line="498" selection-end-column="80" />
+              <folding>
+                <element signature="e#22474#22490#0#HTML" expanded="true" />
+                <element signature="e#22623#22640#0#HTML" expanded="true" />
+                <element signature="e#22670#22690#0#HTML" expanded="true" />
+                <element signature="e#22899#22916#0#HTML" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MqttController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/MqttController.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="528">
@@ -114,12 +127,12 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/app/Http/routes.php" />
         <option value="$PROJECT_DIR$/app/User.php" />
-        <option value="$PROJECT_DIR$/config/database.php" />
         <option value="$PROJECT_DIR$/app/UserCategory.php" />
         <option value="$PROJECT_DIR$/app/Category.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/MqttController.php" />
+        <option value="$PROJECT_DIR$/config/database.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/admincontroller.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/users.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/MqttController.php" />
       </list>
     </option>
   </component>
@@ -304,12 +317,12 @@
       <workItem from="1507807473339" duration="671000" />
       <workItem from="1507959277485" duration="14265000" />
       <workItem from="1508162567589" duration="598000" />
-      <workItem from="1508212475574" duration="6412000" />
+      <workItem from="1508212475574" duration="7377000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34469000" />
+    <option name="totallyTimeSpent" value="35434000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1060" extended-state="6" />
@@ -382,30 +395,30 @@
           <caret line="771" column="8" lean-forward="false" selection-start-line="771" selection-start-column="8" selection-end-line="772" selection-end-column="12" />
           <folding>
             <element signature="e#40#59#0#PHP" expanded="true" />
-            <marker date="1508219130355" expanded="true" signature="1595:1628" ph="select count... users" />
-            <marker date="1508219130355" expanded="true" signature="1718:1759" ph="select count... notifications" />
-            <marker date="1508219130355" expanded="true" signature="1846:1884" ph="select count... categories" />
-            <marker date="1508219130355" expanded="true" signature="1975:2067" ph="select count... users" />
-            <marker date="1508219130355" expanded="true" signature="2163:2288" ph="select devic... users" />
-            <marker date="1508219130355" expanded="true" signature="2361:2485" ph="select devic... users" />
-            <marker date="1508219130355" expanded="true" signature="2565:2843" ph="SELECT conca... users" />
-            <marker date="1508219130355" expanded="true" signature="2602:2628" ph="SELECT COUNT... users" />
-            <marker date="1508219130355" expanded="true" signature="2708:2734" ph="SELECT COUNT... users" />
-            <marker date="1508219130355" expanded="true" signature="3327:3604" ph="SELECT conca... users" />
-            <marker date="1508219130355" expanded="true" signature="3364:3390" ph="SELECT COUNT... users" />
-            <marker date="1508219130355" expanded="true" signature="3470:3496" ph="SELECT COUNT... users" />
-            <marker date="1508219130355" expanded="true" signature="4090:4148" ph="select count... users" />
-            <marker date="1508219130355" expanded="true" signature="4232:4291" ph="select count... users" />
-            <marker date="1508219130355" expanded="true" signature="4669:4826" ph="select * fro... admin" />
-            <marker date="1508219130355" expanded="true" signature="5238:5272" ph="select cat_n... categories" />
-            <marker date="1508219130355" expanded="true" signature="5625:5644" ph="select * fro... admin" />
-            <marker date="1508219130355" expanded="true" signature="14158:14231" ph="select cat_n... categories" />
-            <marker date="1508219130355" expanded="true" signature="16411:16714" ph="SELECT last_... users" />
-            <marker date="1508219130355" expanded="true" signature="21455:21514" ph="select gcm_i... users" />
-            <marker date="1508219130355" expanded="true" signature="26472:26748" ph="SELECT gcm_i... users" />
-            <marker date="1508219130355" expanded="true" signature="31920:32003" ph="SELECT cat_s... categories" />
-            <marker date="1508219130355" expanded="true" signature="34521:34555" ph="select cat_n... categories" />
-            <marker date="1508219130355" expanded="true" signature="37513:37583" ph="select * fro... admin" />
+            <marker date="1508220606952" expanded="true" signature="1595:1628" ph="select count... users" />
+            <marker date="1508220606952" expanded="true" signature="1718:1759" ph="select count... notifications" />
+            <marker date="1508220606952" expanded="true" signature="1846:1884" ph="select count... categories" />
+            <marker date="1508220606952" expanded="true" signature="1975:2067" ph="select count... users" />
+            <marker date="1508220606952" expanded="true" signature="2163:2288" ph="select devic... users" />
+            <marker date="1508220606952" expanded="true" signature="2361:2485" ph="select devic... users" />
+            <marker date="1508220606952" expanded="true" signature="2565:2843" ph="SELECT conca... users" />
+            <marker date="1508220606952" expanded="true" signature="2602:2628" ph="SELECT COUNT... users" />
+            <marker date="1508220606952" expanded="true" signature="2708:2734" ph="SELECT COUNT... users" />
+            <marker date="1508220606952" expanded="true" signature="3327:3604" ph="SELECT conca... users" />
+            <marker date="1508220606952" expanded="true" signature="3364:3390" ph="SELECT COUNT... users" />
+            <marker date="1508220606952" expanded="true" signature="3470:3496" ph="SELECT COUNT... users" />
+            <marker date="1508220606952" expanded="true" signature="4090:4148" ph="select count... users" />
+            <marker date="1508220606952" expanded="true" signature="4232:4291" ph="select count... users" />
+            <marker date="1508220606952" expanded="true" signature="4669:4826" ph="select * fro... admin" />
+            <marker date="1508220606952" expanded="true" signature="5238:5272" ph="select cat_n... categories" />
+            <marker date="1508220606952" expanded="true" signature="5625:5644" ph="select * fro... admin" />
+            <marker date="1508220606952" expanded="true" signature="14160:14233" ph="select cat_n... categories" />
+            <marker date="1508220606952" expanded="true" signature="16413:16716" ph="SELECT last_... users" />
+            <marker date="1508220606952" expanded="true" signature="21457:21516" ph="select gcm_i... users" />
+            <marker date="1508220606952" expanded="true" signature="26474:26750" ph="SELECT gcm_i... users" />
+            <marker date="1508220606952" expanded="true" signature="31922:32005" ph="SELECT cat_s... categories" />
+            <marker date="1508220606952" expanded="true" signature="34523:34557" ph="select cat_n... categories" />
+            <marker date="1508220606952" expanded="true" signature="37515:37585" ph="select * fro... admin" />
           </folding>
         </state>
       </provider>
@@ -441,30 +454,30 @@
           <caret line="771" column="8" lean-forward="false" selection-start-line="771" selection-start-column="8" selection-end-line="772" selection-end-column="12" />
           <folding>
             <element signature="e#40#59#0#PHP" expanded="true" />
-            <marker date="1508219130355" expanded="true" signature="1595:1628" ph="select count... users" />
-            <marker date="1508219130355" expanded="true" signature="1718:1759" ph="select count... notifications" />
-            <marker date="1508219130355" expanded="true" signature="1846:1884" ph="select count... categories" />
-            <marker date="1508219130355" expanded="true" signature="1975:2067" ph="select count... users" />
-            <marker date="1508219130355" expanded="true" signature="2163:2288" ph="select devic... users" />
-            <marker date="1508219130355" expanded="true" signature="2361:2485" ph="select devic... users" />
-            <marker date="1508219130355" expanded="true" signature="2565:2843" ph="SELECT conca... users" />
-            <marker date="1508219130355" expanded="true" signature="2602:2628" ph="SELECT COUNT... users" />
-            <marker date="1508219130355" expanded="true" signature="2708:2734" ph="SELECT COUNT... users" />
-            <marker date="1508219130355" expanded="true" signature="3327:3604" ph="SELECT conca... users" />
-            <marker date="1508219130355" expanded="true" signature="3364:3390" ph="SELECT COUNT... users" />
-            <marker date="1508219130355" expanded="true" signature="3470:3496" ph="SELECT COUNT... users" />
-            <marker date="1508219130355" expanded="true" signature="4090:4148" ph="select count... users" />
-            <marker date="1508219130355" expanded="true" signature="4232:4291" ph="select count... users" />
-            <marker date="1508219130355" expanded="true" signature="4669:4826" ph="select * fro... admin" />
-            <marker date="1508219130355" expanded="true" signature="5238:5272" ph="select cat_n... categories" />
-            <marker date="1508219130355" expanded="true" signature="5625:5644" ph="select * fro... admin" />
-            <marker date="1508219130355" expanded="true" signature="14158:14231" ph="select cat_n... categories" />
-            <marker date="1508219130355" expanded="true" signature="16411:16714" ph="SELECT last_... users" />
-            <marker date="1508219130355" expanded="true" signature="21455:21514" ph="select gcm_i... users" />
-            <marker date="1508219130355" expanded="true" signature="26472:26748" ph="SELECT gcm_i... users" />
-            <marker date="1508219130355" expanded="true" signature="31920:32003" ph="SELECT cat_s... categories" />
-            <marker date="1508219130355" expanded="true" signature="34521:34555" ph="select cat_n... categories" />
-            <marker date="1508219130355" expanded="true" signature="37513:37583" ph="select * fro... admin" />
+            <marker date="1508220606952" expanded="true" signature="1595:1628" ph="select count... users" />
+            <marker date="1508220606952" expanded="true" signature="1718:1759" ph="select count... notifications" />
+            <marker date="1508220606952" expanded="true" signature="1846:1884" ph="select count... categories" />
+            <marker date="1508220606952" expanded="true" signature="1975:2067" ph="select count... users" />
+            <marker date="1508220606952" expanded="true" signature="2163:2288" ph="select devic... users" />
+            <marker date="1508220606952" expanded="true" signature="2361:2485" ph="select devic... users" />
+            <marker date="1508220606952" expanded="true" signature="2565:2843" ph="SELECT conca... users" />
+            <marker date="1508220606952" expanded="true" signature="2602:2628" ph="SELECT COUNT... users" />
+            <marker date="1508220606952" expanded="true" signature="2708:2734" ph="SELECT COUNT... users" />
+            <marker date="1508220606952" expanded="true" signature="3327:3604" ph="SELECT conca... users" />
+            <marker date="1508220606952" expanded="true" signature="3364:3390" ph="SELECT COUNT... users" />
+            <marker date="1508220606952" expanded="true" signature="3470:3496" ph="SELECT COUNT... users" />
+            <marker date="1508220606952" expanded="true" signature="4090:4148" ph="select count... users" />
+            <marker date="1508220606952" expanded="true" signature="4232:4291" ph="select count... users" />
+            <marker date="1508220606952" expanded="true" signature="4669:4826" ph="select * fro... admin" />
+            <marker date="1508220606952" expanded="true" signature="5238:5272" ph="select cat_n... categories" />
+            <marker date="1508220606952" expanded="true" signature="5625:5644" ph="select * fro... admin" />
+            <marker date="1508220606952" expanded="true" signature="14160:14233" ph="select cat_n... categories" />
+            <marker date="1508220606952" expanded="true" signature="16413:16716" ph="SELECT last_... users" />
+            <marker date="1508220606952" expanded="true" signature="21457:21516" ph="select gcm_i... users" />
+            <marker date="1508220606952" expanded="true" signature="26474:26750" ph="SELECT gcm_i... users" />
+            <marker date="1508220606952" expanded="true" signature="31922:32005" ph="SELECT cat_s... categories" />
+            <marker date="1508220606952" expanded="true" signature="34523:34557" ph="select cat_n... categories" />
+            <marker date="1508220606952" expanded="true" signature="37515:37585" ph="select * fro... admin" />
           </folding>
         </state>
       </provider>
@@ -500,30 +513,30 @@
           <caret line="771" column="8" lean-forward="false" selection-start-line="771" selection-start-column="8" selection-end-line="772" selection-end-column="12" />
           <folding>
             <element signature="e#40#59#0#PHP" expanded="true" />
-            <marker date="1508219130355" expanded="true" signature="1595:1628" ph="select count... users" />
-            <marker date="1508219130355" expanded="true" signature="1718:1759" ph="select count... notifications" />
-            <marker date="1508219130355" expanded="true" signature="1846:1884" ph="select count... categories" />
-            <marker date="1508219130355" expanded="true" signature="1975:2067" ph="select count... users" />
-            <marker date="1508219130355" expanded="true" signature="2163:2288" ph="select devic... users" />
-            <marker date="1508219130355" expanded="true" signature="2361:2485" ph="select devic... users" />
-            <marker date="1508219130355" expanded="true" signature="2565:2843" ph="SELECT conca... users" />
-            <marker date="1508219130355" expanded="true" signature="2602:2628" ph="SELECT COUNT... users" />
-            <marker date="1508219130355" expanded="true" signature="2708:2734" ph="SELECT COUNT... users" />
-            <marker date="1508219130355" expanded="true" signature="3327:3604" ph="SELECT conca... users" />
-            <marker date="1508219130355" expanded="true" signature="3364:3390" ph="SELECT COUNT... users" />
-            <marker date="1508219130355" expanded="true" signature="3470:3496" ph="SELECT COUNT... users" />
-            <marker date="1508219130355" expanded="true" signature="4090:4148" ph="select count... users" />
-            <marker date="1508219130355" expanded="true" signature="4232:4291" ph="select count... users" />
-            <marker date="1508219130355" expanded="true" signature="4669:4826" ph="select * fro... admin" />
-            <marker date="1508219130355" expanded="true" signature="5238:5272" ph="select cat_n... categories" />
-            <marker date="1508219130355" expanded="true" signature="5625:5644" ph="select * fro... admin" />
-            <marker date="1508219130355" expanded="true" signature="14158:14231" ph="select cat_n... categories" />
-            <marker date="1508219130355" expanded="true" signature="16411:16714" ph="SELECT last_... users" />
-            <marker date="1508219130355" expanded="true" signature="21455:21514" ph="select gcm_i... users" />
-            <marker date="1508219130355" expanded="true" signature="26472:26748" ph="SELECT gcm_i... users" />
-            <marker date="1508219130355" expanded="true" signature="31920:32003" ph="SELECT cat_s... categories" />
-            <marker date="1508219130355" expanded="true" signature="34521:34555" ph="select cat_n... categories" />
-            <marker date="1508219130355" expanded="true" signature="37513:37583" ph="select * fro... admin" />
+            <marker date="1508220606952" expanded="true" signature="1595:1628" ph="select count... users" />
+            <marker date="1508220606952" expanded="true" signature="1718:1759" ph="select count... notifications" />
+            <marker date="1508220606952" expanded="true" signature="1846:1884" ph="select count... categories" />
+            <marker date="1508220606952" expanded="true" signature="1975:2067" ph="select count... users" />
+            <marker date="1508220606952" expanded="true" signature="2163:2288" ph="select devic... users" />
+            <marker date="1508220606952" expanded="true" signature="2361:2485" ph="select devic... users" />
+            <marker date="1508220606952" expanded="true" signature="2565:2843" ph="SELECT conca... users" />
+            <marker date="1508220606952" expanded="true" signature="2602:2628" ph="SELECT COUNT... users" />
+            <marker date="1508220606952" expanded="true" signature="2708:2734" ph="SELECT COUNT... users" />
+            <marker date="1508220606952" expanded="true" signature="3327:3604" ph="SELECT conca... users" />
+            <marker date="1508220606952" expanded="true" signature="3364:3390" ph="SELECT COUNT... users" />
+            <marker date="1508220606952" expanded="true" signature="3470:3496" ph="SELECT COUNT... users" />
+            <marker date="1508220606952" expanded="true" signature="4090:4148" ph="select count... users" />
+            <marker date="1508220606952" expanded="true" signature="4232:4291" ph="select count... users" />
+            <marker date="1508220606952" expanded="true" signature="4669:4826" ph="select * fro... admin" />
+            <marker date="1508220606952" expanded="true" signature="5238:5272" ph="select cat_n... categories" />
+            <marker date="1508220606952" expanded="true" signature="5625:5644" ph="select * fro... admin" />
+            <marker date="1508220606952" expanded="true" signature="14160:14233" ph="select cat_n... categories" />
+            <marker date="1508220606952" expanded="true" signature="16413:16716" ph="SELECT last_... users" />
+            <marker date="1508220606952" expanded="true" signature="21457:21516" ph="select gcm_i... users" />
+            <marker date="1508220606952" expanded="true" signature="26474:26750" ph="SELECT gcm_i... users" />
+            <marker date="1508220606952" expanded="true" signature="31922:32005" ph="SELECT cat_s... categories" />
+            <marker date="1508220606952" expanded="true" signature="34523:34557" ph="select cat_n... categories" />
+            <marker date="1508220606952" expanded="true" signature="37515:37585" ph="select * fro... admin" />
           </folding>
         </state>
       </provider>
@@ -573,30 +586,30 @@
           <caret line="771" column="8" lean-forward="true" selection-start-line="771" selection-start-column="8" selection-end-line="772" selection-end-column="12" />
           <folding>
             <element signature="e#40#59#0#PHP" expanded="true" />
-            <marker date="1508219130355" expanded="true" signature="1595:1628" ph="select count... users" />
-            <marker date="1508219130355" expanded="true" signature="1718:1759" ph="select count... notifications" />
-            <marker date="1508219130355" expanded="true" signature="1846:1884" ph="select count... categories" />
-            <marker date="1508219130355" expanded="true" signature="1975:2067" ph="select count... users" />
-            <marker date="1508219130355" expanded="true" signature="2163:2288" ph="select devic... users" />
-            <marker date="1508219130355" expanded="true" signature="2361:2485" ph="select devic... users" />
-            <marker date="1508219130355" expanded="true" signature="2565:2843" ph="SELECT conca... users" />
-            <marker date="1508219130355" expanded="true" signature="2602:2628" ph="SELECT COUNT... users" />
-            <marker date="1508219130355" expanded="true" signature="2708:2734" ph="SELECT COUNT... users" />
-            <marker date="1508219130355" expanded="true" signature="3327:3604" ph="SELECT conca... users" />
-            <marker date="1508219130355" expanded="true" signature="3364:3390" ph="SELECT COUNT... users" />
-            <marker date="1508219130355" expanded="true" signature="3470:3496" ph="SELECT COUNT... users" />
-            <marker date="1508219130355" expanded="true" signature="4090:4148" ph="select count... users" />
-            <marker date="1508219130355" expanded="true" signature="4232:4291" ph="select count... users" />
-            <marker date="1508219130355" expanded="true" signature="4669:4826" ph="select * fro... admin" />
-            <marker date="1508219130355" expanded="true" signature="5238:5272" ph="select cat_n... categories" />
-            <marker date="1508219130355" expanded="true" signature="5625:5644" ph="select * fro... admin" />
-            <marker date="1508219130355" expanded="true" signature="14158:14231" ph="select cat_n... categories" />
-            <marker date="1508219130355" expanded="true" signature="16411:16714" ph="SELECT last_... users" />
-            <marker date="1508219130355" expanded="true" signature="21455:21514" ph="select gcm_i... users" />
-            <marker date="1508219130355" expanded="true" signature="26472:26748" ph="SELECT gcm_i... users" />
-            <marker date="1508219130355" expanded="true" signature="31920:32003" ph="SELECT cat_s... categories" />
-            <marker date="1508219130355" expanded="true" signature="34521:34555" ph="select cat_n... categories" />
-            <marker date="1508219130355" expanded="true" signature="37513:37583" ph="select * fro... admin" />
+            <marker date="1508220606952" expanded="true" signature="1595:1628" ph="select count... users" />
+            <marker date="1508220606952" expanded="true" signature="1718:1759" ph="select count... notifications" />
+            <marker date="1508220606952" expanded="true" signature="1846:1884" ph="select count... categories" />
+            <marker date="1508220606952" expanded="true" signature="1975:2067" ph="select count... users" />
+            <marker date="1508220606952" expanded="true" signature="2163:2288" ph="select devic... users" />
+            <marker date="1508220606952" expanded="true" signature="2361:2485" ph="select devic... users" />
+            <marker date="1508220606952" expanded="true" signature="2565:2843" ph="SELECT conca... users" />
+            <marker date="1508220606952" expanded="true" signature="2602:2628" ph="SELECT COUNT... users" />
+            <marker date="1508220606952" expanded="true" signature="2708:2734" ph="SELECT COUNT... users" />
+            <marker date="1508220606952" expanded="true" signature="3327:3604" ph="SELECT conca... users" />
+            <marker date="1508220606952" expanded="true" signature="3364:3390" ph="SELECT COUNT... users" />
+            <marker date="1508220606952" expanded="true" signature="3470:3496" ph="SELECT COUNT... users" />
+            <marker date="1508220606952" expanded="true" signature="4090:4148" ph="select count... users" />
+            <marker date="1508220606952" expanded="true" signature="4232:4291" ph="select count... users" />
+            <marker date="1508220606952" expanded="true" signature="4669:4826" ph="select * fro... admin" />
+            <marker date="1508220606952" expanded="true" signature="5238:5272" ph="select cat_n... categories" />
+            <marker date="1508220606952" expanded="true" signature="5625:5644" ph="select * fro... admin" />
+            <marker date="1508220606952" expanded="true" signature="14160:14233" ph="select cat_n... categories" />
+            <marker date="1508220606952" expanded="true" signature="16413:16716" ph="SELECT last_... users" />
+            <marker date="1508220606952" expanded="true" signature="21457:21516" ph="select gcm_i... users" />
+            <marker date="1508220606952" expanded="true" signature="26474:26750" ph="SELECT gcm_i... users" />
+            <marker date="1508220606952" expanded="true" signature="31922:32005" ph="SELECT cat_s... categories" />
+            <marker date="1508220606952" expanded="true" signature="34523:34557" ph="select cat_n... categories" />
+            <marker date="1508220606952" expanded="true" signature="37515:37585" ph="select * fro... admin" />
           </folding>
         </state>
       </provider>
@@ -639,30 +652,30 @@
           <caret line="632" column="23" lean-forward="false" selection-start-line="632" selection-start-column="23" selection-end-line="632" selection-end-column="23" />
           <folding>
             <element signature="e#40#59#0#PHP" expanded="true" />
-            <marker date="1508219130355" expanded="true" signature="1595:1628" ph="select count... users" />
-            <marker date="1508219130355" expanded="true" signature="1718:1759" ph="select count... notifications" />
-            <marker date="1508219130355" expanded="true" signature="1846:1884" ph="select count... categories" />
-            <marker date="1508219130355" expanded="true" signature="1975:2067" ph="select count... users" />
-            <marker date="1508219130355" expanded="true" signature="2163:2288" ph="select devic... users" />
-            <marker date="1508219130355" expanded="true" signature="2361:2485" ph="select devic... users" />
-            <marker date="1508219130355" expanded="true" signature="2565:2843" ph="SELECT conca... users" />
-            <marker date="1508219130355" expanded="true" signature="2602:2628" ph="SELECT COUNT... users" />
-            <marker date="1508219130355" expanded="true" signature="2708:2734" ph="SELECT COUNT... users" />
-            <marker date="1508219130355" expanded="true" signature="3327:3604" ph="SELECT conca... users" />
-            <marker date="1508219130355" expanded="true" signature="3364:3390" ph="SELECT COUNT... users" />
-            <marker date="1508219130355" expanded="true" signature="3470:3496" ph="SELECT COUNT... users" />
-            <marker date="1508219130355" expanded="true" signature="4090:4148" ph="select count... users" />
-            <marker date="1508219130355" expanded="true" signature="4232:4291" ph="select count... users" />
-            <marker date="1508219130355" expanded="true" signature="4669:4826" ph="select * fro... admin" />
-            <marker date="1508219130355" expanded="true" signature="5238:5272" ph="select cat_n... categories" />
-            <marker date="1508219130355" expanded="true" signature="5625:5644" ph="select * fro... admin" />
-            <marker date="1508219130355" expanded="true" signature="14158:14231" ph="select cat_n... categories" />
-            <marker date="1508219130355" expanded="true" signature="16411:16714" ph="SELECT last_... users" />
-            <marker date="1508219130355" expanded="true" signature="21455:21514" ph="select gcm_i... users" />
-            <marker date="1508219130355" expanded="true" signature="26472:26748" ph="SELECT gcm_i... users" />
-            <marker date="1508219130355" expanded="true" signature="31920:32003" ph="SELECT cat_s... categories" />
-            <marker date="1508219130355" expanded="true" signature="34521:34555" ph="select cat_n... categories" />
-            <marker date="1508219130355" expanded="true" signature="37513:37583" ph="select * fro... admin" />
+            <marker date="1508220606952" expanded="true" signature="1595:1628" ph="select count... users" />
+            <marker date="1508220606952" expanded="true" signature="1718:1759" ph="select count... notifications" />
+            <marker date="1508220606952" expanded="true" signature="1846:1884" ph="select count... categories" />
+            <marker date="1508220606952" expanded="true" signature="1975:2067" ph="select count... users" />
+            <marker date="1508220606952" expanded="true" signature="2163:2288" ph="select devic... users" />
+            <marker date="1508220606952" expanded="true" signature="2361:2485" ph="select devic... users" />
+            <marker date="1508220606952" expanded="true" signature="2565:2843" ph="SELECT conca... users" />
+            <marker date="1508220606952" expanded="true" signature="2602:2628" ph="SELECT COUNT... users" />
+            <marker date="1508220606952" expanded="true" signature="2708:2734" ph="SELECT COUNT... users" />
+            <marker date="1508220606952" expanded="true" signature="3327:3604" ph="SELECT conca... users" />
+            <marker date="1508220606952" expanded="true" signature="3364:3390" ph="SELECT COUNT... users" />
+            <marker date="1508220606952" expanded="true" signature="3470:3496" ph="SELECT COUNT... users" />
+            <marker date="1508220606952" expanded="true" signature="4090:4148" ph="select count... users" />
+            <marker date="1508220606952" expanded="true" signature="4232:4291" ph="select count... users" />
+            <marker date="1508220606952" expanded="true" signature="4669:4826" ph="select * fro... admin" />
+            <marker date="1508220606952" expanded="true" signature="5238:5272" ph="select cat_n... categories" />
+            <marker date="1508220606952" expanded="true" signature="5625:5644" ph="select * fro... admin" />
+            <marker date="1508220606952" expanded="true" signature="14160:14233" ph="select cat_n... categories" />
+            <marker date="1508220606952" expanded="true" signature="16413:16716" ph="SELECT last_... users" />
+            <marker date="1508220606952" expanded="true" signature="21457:21516" ph="select gcm_i... users" />
+            <marker date="1508220606952" expanded="true" signature="26474:26750" ph="SELECT gcm_i... users" />
+            <marker date="1508220606952" expanded="true" signature="31922:32005" ph="SELECT cat_s... categories" />
+            <marker date="1508220606952" expanded="true" signature="34523:34557" ph="select cat_n... categories" />
+            <marker date="1508220606952" expanded="true" signature="37515:37585" ph="select * fro... admin" />
           </folding>
         </state>
       </provider>
@@ -681,30 +694,30 @@
           <caret line="632" column="23" lean-forward="false" selection-start-line="632" selection-start-column="23" selection-end-line="632" selection-end-column="23" />
           <folding>
             <element signature="e#40#59#0#PHP" expanded="true" />
-            <marker date="1508219130355" expanded="true" signature="1595:1628" ph="select count... users" />
-            <marker date="1508219130355" expanded="true" signature="1718:1759" ph="select count... notifications" />
-            <marker date="1508219130355" expanded="true" signature="1846:1884" ph="select count... categories" />
-            <marker date="1508219130355" expanded="true" signature="1975:2067" ph="select count... users" />
-            <marker date="1508219130355" expanded="true" signature="2163:2288" ph="select devic... users" />
-            <marker date="1508219130355" expanded="true" signature="2361:2485" ph="select devic... users" />
-            <marker date="1508219130355" expanded="true" signature="2565:2843" ph="SELECT conca... users" />
-            <marker date="1508219130355" expanded="true" signature="2602:2628" ph="SELECT COUNT... users" />
-            <marker date="1508219130355" expanded="true" signature="2708:2734" ph="SELECT COUNT... users" />
-            <marker date="1508219130355" expanded="true" signature="3327:3604" ph="SELECT conca... users" />
-            <marker date="1508219130355" expanded="true" signature="3364:3390" ph="SELECT COUNT... users" />
-            <marker date="1508219130355" expanded="true" signature="3470:3496" ph="SELECT COUNT... users" />
-            <marker date="1508219130355" expanded="true" signature="4090:4148" ph="select count... users" />
-            <marker date="1508219130355" expanded="true" signature="4232:4291" ph="select count... users" />
-            <marker date="1508219130355" expanded="true" signature="4669:4826" ph="select * fro... admin" />
-            <marker date="1508219130355" expanded="true" signature="5238:5272" ph="select cat_n... categories" />
-            <marker date="1508219130355" expanded="true" signature="5625:5644" ph="select * fro... admin" />
-            <marker date="1508219130355" expanded="true" signature="14158:14231" ph="select cat_n... categories" />
-            <marker date="1508219130355" expanded="true" signature="16411:16714" ph="SELECT last_... users" />
-            <marker date="1508219130355" expanded="true" signature="21455:21514" ph="select gcm_i... users" />
-            <marker date="1508219130355" expanded="true" signature="26472:26748" ph="SELECT gcm_i... users" />
-            <marker date="1508219130355" expanded="true" signature="31920:32003" ph="SELECT cat_s... categories" />
-            <marker date="1508219130355" expanded="true" signature="34521:34555" ph="select cat_n... categories" />
-            <marker date="1508219130355" expanded="true" signature="37513:37583" ph="select * fro... admin" />
+            <marker date="1508220606952" expanded="true" signature="1595:1628" ph="select count... users" />
+            <marker date="1508220606952" expanded="true" signature="1718:1759" ph="select count... notifications" />
+            <marker date="1508220606952" expanded="true" signature="1846:1884" ph="select count... categories" />
+            <marker date="1508220606952" expanded="true" signature="1975:2067" ph="select count... users" />
+            <marker date="1508220606952" expanded="true" signature="2163:2288" ph="select devic... users" />
+            <marker date="1508220606952" expanded="true" signature="2361:2485" ph="select devic... users" />
+            <marker date="1508220606952" expanded="true" signature="2565:2843" ph="SELECT conca... users" />
+            <marker date="1508220606952" expanded="true" signature="2602:2628" ph="SELECT COUNT... users" />
+            <marker date="1508220606952" expanded="true" signature="2708:2734" ph="SELECT COUNT... users" />
+            <marker date="1508220606952" expanded="true" signature="3327:3604" ph="SELECT conca... users" />
+            <marker date="1508220606952" expanded="true" signature="3364:3390" ph="SELECT COUNT... users" />
+            <marker date="1508220606952" expanded="true" signature="3470:3496" ph="SELECT COUNT... users" />
+            <marker date="1508220606952" expanded="true" signature="4090:4148" ph="select count... users" />
+            <marker date="1508220606952" expanded="true" signature="4232:4291" ph="select count... users" />
+            <marker date="1508220606952" expanded="true" signature="4669:4826" ph="select * fro... admin" />
+            <marker date="1508220606952" expanded="true" signature="5238:5272" ph="select cat_n... categories" />
+            <marker date="1508220606952" expanded="true" signature="5625:5644" ph="select * fro... admin" />
+            <marker date="1508220606952" expanded="true" signature="14160:14233" ph="select cat_n... categories" />
+            <marker date="1508220606952" expanded="true" signature="16413:16716" ph="SELECT last_... users" />
+            <marker date="1508220606952" expanded="true" signature="21457:21516" ph="select gcm_i... users" />
+            <marker date="1508220606952" expanded="true" signature="26474:26750" ph="SELECT gcm_i... users" />
+            <marker date="1508220606952" expanded="true" signature="31922:32005" ph="SELECT cat_s... categories" />
+            <marker date="1508220606952" expanded="true" signature="34523:34557" ph="select cat_n... categories" />
+            <marker date="1508220606952" expanded="true" signature="37515:37585" ph="select * fro... admin" />
           </folding>
         </state>
       </provider>
@@ -737,30 +750,30 @@
           <caret line="626" column="55" lean-forward="true" selection-start-line="626" selection-start-column="55" selection-end-line="626" selection-end-column="55" />
           <folding>
             <element signature="e#40#59#0#PHP" expanded="true" />
-            <marker date="1508219130355" expanded="true" signature="1595:1628" ph="select count... users" />
-            <marker date="1508219130355" expanded="true" signature="1718:1759" ph="select count... notifications" />
-            <marker date="1508219130355" expanded="true" signature="1846:1884" ph="select count... categories" />
-            <marker date="1508219130355" expanded="true" signature="1975:2067" ph="select count... users" />
-            <marker date="1508219130355" expanded="true" signature="2163:2288" ph="select devic... users" />
-            <marker date="1508219130355" expanded="true" signature="2361:2485" ph="select devic... users" />
-            <marker date="1508219130355" expanded="true" signature="2565:2843" ph="SELECT conca... users" />
-            <marker date="1508219130355" expanded="true" signature="2602:2628" ph="SELECT COUNT... users" />
-            <marker date="1508219130355" expanded="true" signature="2708:2734" ph="SELECT COUNT... users" />
-            <marker date="1508219130355" expanded="true" signature="3327:3604" ph="SELECT conca... users" />
-            <marker date="1508219130355" expanded="true" signature="3364:3390" ph="SELECT COUNT... users" />
-            <marker date="1508219130355" expanded="true" signature="3470:3496" ph="SELECT COUNT... users" />
-            <marker date="1508219130355" expanded="true" signature="4090:4148" ph="select count... users" />
-            <marker date="1508219130355" expanded="true" signature="4232:4291" ph="select count... users" />
-            <marker date="1508219130355" expanded="true" signature="4669:4826" ph="select * fro... admin" />
-            <marker date="1508219130355" expanded="true" signature="5238:5272" ph="select cat_n... categories" />
-            <marker date="1508219130355" expanded="true" signature="5625:5644" ph="select * fro... admin" />
-            <marker date="1508219130355" expanded="true" signature="14158:14231" ph="select cat_n... categories" />
-            <marker date="1508219130355" expanded="true" signature="16411:16714" ph="SELECT last_... users" />
-            <marker date="1508219130355" expanded="true" signature="21455:21514" ph="select gcm_i... users" />
-            <marker date="1508219130355" expanded="true" signature="26472:26748" ph="SELECT gcm_i... users" />
-            <marker date="1508219130355" expanded="true" signature="31920:32003" ph="SELECT cat_s... categories" />
-            <marker date="1508219130355" expanded="true" signature="34521:34555" ph="select cat_n... categories" />
-            <marker date="1508219130355" expanded="true" signature="37513:37583" ph="select * fro... admin" />
+            <marker date="1508220606952" expanded="true" signature="1595:1628" ph="select count... users" />
+            <marker date="1508220606952" expanded="true" signature="1718:1759" ph="select count... notifications" />
+            <marker date="1508220606952" expanded="true" signature="1846:1884" ph="select count... categories" />
+            <marker date="1508220606952" expanded="true" signature="1975:2067" ph="select count... users" />
+            <marker date="1508220606952" expanded="true" signature="2163:2288" ph="select devic... users" />
+            <marker date="1508220606952" expanded="true" signature="2361:2485" ph="select devic... users" />
+            <marker date="1508220606952" expanded="true" signature="2565:2843" ph="SELECT conca... users" />
+            <marker date="1508220606952" expanded="true" signature="2602:2628" ph="SELECT COUNT... users" />
+            <marker date="1508220606952" expanded="true" signature="2708:2734" ph="SELECT COUNT... users" />
+            <marker date="1508220606952" expanded="true" signature="3327:3604" ph="SELECT conca... users" />
+            <marker date="1508220606952" expanded="true" signature="3364:3390" ph="SELECT COUNT... users" />
+            <marker date="1508220606952" expanded="true" signature="3470:3496" ph="SELECT COUNT... users" />
+            <marker date="1508220606952" expanded="true" signature="4090:4148" ph="select count... users" />
+            <marker date="1508220606952" expanded="true" signature="4232:4291" ph="select count... users" />
+            <marker date="1508220606952" expanded="true" signature="4669:4826" ph="select * fro... admin" />
+            <marker date="1508220606952" expanded="true" signature="5238:5272" ph="select cat_n... categories" />
+            <marker date="1508220606952" expanded="true" signature="5625:5644" ph="select * fro... admin" />
+            <marker date="1508220606952" expanded="true" signature="14160:14233" ph="select cat_n... categories" />
+            <marker date="1508220606952" expanded="true" signature="16413:16716" ph="SELECT last_... users" />
+            <marker date="1508220606952" expanded="true" signature="21457:21516" ph="select gcm_i... users" />
+            <marker date="1508220606952" expanded="true" signature="26474:26750" ph="SELECT gcm_i... users" />
+            <marker date="1508220606952" expanded="true" signature="31922:32005" ph="SELECT cat_s... categories" />
+            <marker date="1508220606952" expanded="true" signature="34523:34557" ph="select cat_n... categories" />
+            <marker date="1508220606952" expanded="true" signature="37515:37585" ph="select * fro... admin" />
           </folding>
         </state>
       </provider>
@@ -892,14 +905,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="18" column="59" lean-forward="false" selection-start-line="18" selection-start-column="59" selection-end-line="18" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
@@ -924,47 +929,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/users.blade.php">
+    <entry file="file://$PROJECT_DIR$/config/database.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="497" column="108" lean-forward="false" selection-start-line="497" selection-start-column="108" selection-end-line="497" selection-end-column="108" />
-          <folding>
-            <element signature="e#22860#22877#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/admincontroller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="563">
-          <caret line="313" column="27" lean-forward="false" selection-start-line="313" selection-start-column="27" selection-end-line="313" selection-end-column="27" />
-          <folding>
-            <element signature="e#40#59#0#PHP" expanded="true" />
-            <marker date="1508219130355" expanded="true" signature="1595:1628" ph="select count... users" />
-            <marker date="1508219130355" expanded="true" signature="1718:1759" ph="select count... notifications" />
-            <marker date="1508219130355" expanded="true" signature="1846:1884" ph="select count... categories" />
-            <marker date="1508219130355" expanded="true" signature="1975:2067" ph="select count... users" />
-            <marker date="1508219130355" expanded="true" signature="2163:2288" ph="select devic... users" />
-            <marker date="1508219130355" expanded="true" signature="2361:2485" ph="select devic... users" />
-            <marker date="1508219130355" expanded="true" signature="2565:2843" ph="SELECT conca... users" />
-            <marker date="1508219130355" expanded="true" signature="2602:2628" ph="SELECT COUNT... users" />
-            <marker date="1508219130355" expanded="true" signature="2708:2734" ph="SELECT COUNT... users" />
-            <marker date="1508219130355" expanded="true" signature="3327:3604" ph="SELECT conca... users" />
-            <marker date="1508219130355" expanded="true" signature="3364:3390" ph="SELECT COUNT... users" />
-            <marker date="1508219130355" expanded="true" signature="3470:3496" ph="SELECT COUNT... users" />
-            <marker date="1508219130355" expanded="true" signature="4090:4148" ph="select count... users" />
-            <marker date="1508219130355" expanded="true" signature="4232:4291" ph="select count... users" />
-            <marker date="1508219130355" expanded="true" signature="4669:4826" ph="select * fro... admin" />
-            <marker date="1508219130355" expanded="true" signature="5238:5272" ph="select cat_n... categories" />
-            <marker date="1508219130355" expanded="true" signature="5625:5644" ph="select * fro... admin" />
-            <marker date="1508219130355" expanded="true" signature="14158:14231" ph="select cat_n... categories" />
-            <marker date="1508219130355" expanded="true" signature="16411:16714" ph="SELECT last_... users" />
-            <marker date="1508219130355" expanded="true" signature="21455:21514" ph="select gcm_i... users" />
-            <marker date="1508219130355" expanded="true" signature="26472:26748" ph="SELECT gcm_i... users" />
-            <marker date="1508219130355" expanded="true" signature="31920:32003" ph="SELECT cat_s... categories" />
-            <marker date="1508219130355" expanded="true" signature="34521:34555" ph="select cat_n... categories" />
-            <marker date="1508219130355" expanded="true" signature="37513:37583" ph="select * fro... admin" />
-          </folding>
+        <state relative-caret-position="493">
+          <caret line="18" column="59" lean-forward="false" selection-start-line="18" selection-start-column="59" selection-end-line="18" selection-end-column="59" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -981,6 +950,53 @@
             <marker date="1508219847879" expanded="true" signature="6332:6397" ph="insert into test... " />
             <marker date="1508219847879" expanded="true" signature="6332:6399" ph="insert into test... " />
             <marker date="1508219847879" expanded="true" signature="6332:6449" ph="insert into test... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/admincontroller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="311" column="46" lean-forward="true" selection-start-line="311" selection-start-column="46" selection-end-line="311" selection-end-column="46" />
+          <folding>
+            <element signature="e#40#59#0#PHP" expanded="true" />
+            <marker date="1508220606952" expanded="true" signature="1595:1628" ph="select count... users" />
+            <marker date="1508220606952" expanded="true" signature="1718:1759" ph="select count... notifications" />
+            <marker date="1508220606952" expanded="true" signature="1846:1884" ph="select count... categories" />
+            <marker date="1508220606952" expanded="true" signature="1975:2067" ph="select count... users" />
+            <marker date="1508220606952" expanded="true" signature="2163:2288" ph="select devic... users" />
+            <marker date="1508220606952" expanded="true" signature="2361:2485" ph="select devic... users" />
+            <marker date="1508220606952" expanded="true" signature="2565:2843" ph="SELECT conca... users" />
+            <marker date="1508220606952" expanded="true" signature="2602:2628" ph="SELECT COUNT... users" />
+            <marker date="1508220606952" expanded="true" signature="2708:2734" ph="SELECT COUNT... users" />
+            <marker date="1508220606952" expanded="true" signature="3327:3604" ph="SELECT conca... users" />
+            <marker date="1508220606952" expanded="true" signature="3364:3390" ph="SELECT COUNT... users" />
+            <marker date="1508220606952" expanded="true" signature="3470:3496" ph="SELECT COUNT... users" />
+            <marker date="1508220606952" expanded="true" signature="4090:4148" ph="select count... users" />
+            <marker date="1508220606952" expanded="true" signature="4232:4291" ph="select count... users" />
+            <marker date="1508220606952" expanded="true" signature="4669:4826" ph="select * fro... admin" />
+            <marker date="1508220606952" expanded="true" signature="5238:5272" ph="select cat_n... categories" />
+            <marker date="1508220606952" expanded="true" signature="5625:5644" ph="select * fro... admin" />
+            <marker date="1508220606952" expanded="true" signature="14160:14233" ph="select cat_n... categories" />
+            <marker date="1508220606952" expanded="true" signature="16413:16716" ph="SELECT last_... users" />
+            <marker date="1508220606952" expanded="true" signature="21457:21516" ph="select gcm_i... users" />
+            <marker date="1508220606952" expanded="true" signature="26474:26750" ph="SELECT gcm_i... users" />
+            <marker date="1508220606952" expanded="true" signature="31922:32005" ph="SELECT cat_s... categories" />
+            <marker date="1508220606952" expanded="true" signature="34523:34557" ph="select cat_n... categories" />
+            <marker date="1508220606952" expanded="true" signature="37515:37585" ph="select * fro... admin" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/users.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="498" column="80" lean-forward="false" selection-start-line="498" selection-start-column="80" selection-end-line="498" selection-end-column="80" />
+          <folding>
+            <element signature="e#22474#22490#0#HTML" expanded="true" />
+            <element signature="e#22623#22640#0#HTML" expanded="true" />
+            <element signature="e#22670#22690#0#HTML" expanded="true" />
+            <element signature="e#22899#22916#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>

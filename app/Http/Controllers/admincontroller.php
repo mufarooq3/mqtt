@@ -311,7 +311,7 @@ class Admincontroller extends BaseController {
                 $query = DB::table('users');
                 $users = $query->paginate(10);
                 $countBuilds = count($users);
-                dd($users);
+                //dd($users);
 				
 				
                 return View::make('admin.users', compact('users'))->with("data", $data);

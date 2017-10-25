@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use App\AdminModel;
+use App\notification;
+use App\user_notification;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Foundation\Bus\DispatchesJobs;
 use Illuminate\Routing\Controller as BaseController;
@@ -56,8 +58,8 @@ class Admincontroller extends BaseController {
          $data['cnt_cat'] = $cat[0]->cnt; 
          
          $mnth_user = DB::select("select count(*) as cnt from users where MONTH(time) = MONTH(CURRENT_DATE - INTERVAL 1 MONTH)");
-         $data['cnt_last_mnth_user'] = $mnth_user[0]->cnt; 
-		 
+         $data['cnt_last_mnth_user'] = $mnth_user[0]->cnt;
+
 		 $device_os = DB::select("select device_os as label ,count(uid) as data from users where device_api != 'IOS' group by device_os order by device_os desc");
 		 $data['cnt_device_os'] = $device_os;
 
@@ -410,7 +412,7 @@ class Admincontroller extends BaseController {
             }
             if ($_POST['type'] == 2) {
                $file = array('image' => Input::file('image'));
-				
+
                if (empty($_POST['image_path']) && !empty($file['image'])) {
 // setting up rules
                     $rules = array('image' => 'required',); //mimes:jpeg,bmp,png and for max size max:10000
@@ -909,6 +911,42 @@ class Admincontroller extends BaseController {
         $setting = DB::table('admin')->select('*')->first();
         Session::put('AdminData', $setting);
         return View::make('admin.setting')->with('data', $setting);
+    }
+
+    public function report(){
+        $request=$_GET;
+        if(!isset($request['status']))
+            $request['status']='all';
+
+        if($request['status']=='all') {
+            $user_notification = user_notification::whereRaw('status in ("delivered","send")');
+        }
+        else if($request['status']=='pending'){
+            $user_notification = user_notification::where('status','delivered');
+//            dd($user_notification);
+        }
+        else if($request['status']=='send'){
+            $user_notification = user_notification::where('status','send');
+        }
+
+
+        if(isset($request['start_date']) && $request['start_date']!=""){
+            $user_notification->where('created_at','>=',$request['start_date']);
+        }
+
+        if(isset($request['end_date']) && $request['end_date']!=""){
+            $user_notification->where('created_at','<=',$request['end_date']);
+        }
+
+        $user_notification=$user_notification->get();
+
+        if($user_notification)
+            $user_notification->load(['notification']);
+
+//        dd($user_notification);
+
+
+        return view('admin.report')->with('notifications',$user_notification);
     }
 
 

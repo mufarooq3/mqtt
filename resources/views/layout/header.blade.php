@@ -123,7 +123,7 @@
                         <div class="vd_top-nav vd_nav-width  ">
                             <div class="vd_panel-header">
                                 <div class="logo">
-                                        <a href="#" style="width:300px;color:white"><h3><b>Advance FCM Push</b></h3></a>
+                                        <a href="#" style="width:400px;color:white"><h3><b>Push Notification and Promotion</b></h3></a>
                                  </div>
 
                                 <!--“25-03-2558 19:03:24”-->

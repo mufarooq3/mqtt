@@ -52,6 +52,14 @@
 
                             </a>
                         </li>
+
+                        <li>
+                            <a href="{{url()}}/report">
+                                <span class="menu-icon"><i class="fa fa-location-arrow"></i></span>
+                                <span class="menu-text">Report</span>
+
+                            </a>
+                        </li>
                         
                         <li>
                             <a href="{{url()}}/settings">

@@ -278,16 +278,19 @@ $(".mMessage").fadeOut();
         }
 });
         $(document).on("click", ".btnsendnoty", function (e) {
-e.preventDefault();
+        e.preventDefault();
         $(this).attr("disable", "true");
         var data = new FormData($(this).parents('form')[0]);
         var a = [];
         $('.chk:checkbox:checked').each(function (i, obj) {
-a.push($(this).val());
+            a.push($(this).val());
         });
+//        document.getElementById('to').value=JSON.stringify(a);
+//        console.log(document.getElementById('to').value);
+//        $('#frmsubmit').submit();
         data.append("to", a);
         $.ajax({
-        url: '{{ action('Admincontroller@send_noty') }}',
+        url: '{{ action('MqttController@send_noty') }}',
                 type: 'post',
                 data: data,
                 async: false,
@@ -296,9 +299,14 @@ a.push($(this).val());
                 processData: false,
                 dataType: 'json',
                 success: function (result) {
-                $(".btnsendnoty").attr("disable", "false");
-                        notification("topright", "success", "fa fa-check-circle vd_green", "success", "Notification Successfully Sent");
-                        $('.modal_noty').modal('hide');
+                    $(".btnsendnoty").attr("disable", "false");
+                    notification("topright", "success", "fa fa-check-circle vd_green", "success", "Notification Successfully Sent");
+                    $('.modal_noty').modal('hide');
+                },
+                error: function(result){
+//                    $(".btnsendnoty").attr("disable", "false");
+//                    notification("topright", "success", "fa fa-check-circle vd_green", "success", result);
+//                    $('.modal_noty').modal('hide');
                 }
         })
         });
@@ -334,8 +342,9 @@ url: url,
                 <div class="panel widget light-widget">
                     <div class="modal-body" style="max-width:1000px;width:950px;margin-left:-170px;display: inline-flex">
                         <div style="width:650px;">
-                            <form id="frmsubmit" enctype="multipart/form-data" method="post">
+                            <form id="frmsubmit" enctype="multipart/form-data" method="post" action="{{action('MqttController@send_noty')}}">
                                 <input type="hidden" name="_token" id="csrf-token" value="{{ Session::token() }}" />
+                                {{--<input type="hidden" name="to" id="to" value="">--}}
                                 
                                         <div id="android_div" class="form-group">
                                             <select class="form-control selectpicker span12" name="type" required="true" id="notytype">
@@ -380,7 +389,7 @@ url: url,
                                 </div>
                                 <hr>
                                 <div class="row-fluid">
-                                    <button type="button" id="btn-loading" class="btn btn-primary btnsendnoty" data-loading-text="Loading...">Send Now</button>
+                                    <button type="submit" id="btn-loading" class="btn btn-primary btnsendnoty" data-loading-text="Loading...">Send Now</button>
                                 </div>
                             </form>
                         </div>

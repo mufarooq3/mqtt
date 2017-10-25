@@ -8,7 +8,7 @@
             <div class="row">
                 <div class=" col-xs-12">
                     <div class="copyright">
-                        Copyright &copy;2016 IcanstudioZ 
+
                     </div>
                 </div>
             </div><!-- row -->

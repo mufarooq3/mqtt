@@ -11,10 +11,15 @@
   |
  */
 
-
+Route::post('/test/{load}/{cats}', 'MqttController@publish');
 Route::post('/publish', 'MqttController@mass_noty');
+Route::post('/send_noty', 'MqttController@send_noty');
+Route::post('/send_noty_loc', 'MqttController@mass_noty_loc');
 Route::post('/emqhook', 'MqttController@emqhook');
 Route::get('/subscribe', 'MqttController@subscribe');
+
+
+Route::get('/report', 'admincontroller@report');
 
 
 

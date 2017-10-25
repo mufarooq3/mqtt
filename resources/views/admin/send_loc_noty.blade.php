@@ -194,7 +194,7 @@ $(document).ready(function () {
         });
         data.append("to", a);
         $.ajax({
-            url: '{{ action('Admincontroller@mass_noty_loc') }}',
+            url: '{{ action('MqttController@mass_noty_loc') }}',
             type: 'post',
             data: data,
             async: false,

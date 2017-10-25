@@ -147,8 +147,9 @@ $(document).ready(function () {
             a.push($(this).val());
         });
         data.append("to", a);
+        console.log(JSON.stringify(data));
         $.ajax({
-            url: '{{ action('Admincontroller@mass_noty') }}',
+            url: '{{ action('MqttController@mass_noty') }}',
             type: 'post',
             data: data,
             async: false,

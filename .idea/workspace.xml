@@ -2,20 +2,174 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="858334ba-d02f-42dd-a6ab-d9ae6cd2e5f0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/admin/File Notifications.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/admin/report.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/datatables.net-bs/.bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/datatables.net-bs/License.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/datatables.net-bs/Readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/datatables.net-bs/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/datatables.net-bs/css/dataTables.bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/datatables.net-bs/css/dataTables.bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/datatables.net-bs/js/dataTables.bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/datatables.net-bs/js/dataTables.bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/datatables.net-buttons-bs/.bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/datatables.net-buttons-bs/License.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/datatables.net-buttons-bs/Readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/datatables.net-buttons-bs/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/datatables.net-buttons-bs/css/buttons.bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/datatables.net-buttons-bs/css/buttons.bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/datatables.net-buttons-bs/js/buttons.bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/datatables.net-buttons-bs/js/buttons.bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/datatables.net-buttons/.bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/datatables.net-buttons/License.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/datatables.net-buttons/Readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/datatables.net-buttons/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/datatables.net-buttons/js/buttons.colVis.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/datatables.net-buttons/js/buttons.colVis.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/datatables.net-buttons/js/buttons.flash.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/datatables.net-buttons/js/buttons.flash.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/datatables.net-buttons/js/buttons.html5.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/datatables.net-buttons/js/buttons.html5.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/datatables.net-buttons/js/buttons.print.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/datatables.net-buttons/js/buttons.print.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/datatables.net-buttons/js/dataTables.buttons.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/datatables.net-buttons/js/dataTables.buttons.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/datatables.net-fixedheader-bs/.bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/datatables.net-fixedheader-bs/License.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/datatables.net-fixedheader-bs/Readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/datatables.net-fixedheader-bs/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/datatables.net-fixedheader-bs/css/fixedHeader.bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/datatables.net-fixedheader-bs/css/fixedHeader.bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/datatables.net-fixedheader/.bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/datatables.net-fixedheader/License.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/datatables.net-fixedheader/Readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/datatables.net-fixedheader/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/datatables.net-fixedheader/js/dataTables.fixedHeader.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/datatables.net-fixedheader/js/dataTables.fixedHeader.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/datatables.net-keytable/.bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/datatables.net-keytable/License.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/datatables.net-keytable/Readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/datatables.net-keytable/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/datatables.net-keytable/js/dataTables.keyTable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/datatables.net-keytable/js/dataTables.keyTable.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/datatables.net-responsive-bs/.bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/datatables.net-responsive-bs/License.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/datatables.net-responsive-bs/Readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/datatables.net-responsive-bs/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/datatables.net-responsive-bs/css/responsive.bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/datatables.net-responsive-bs/css/responsive.bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/datatables.net-responsive-bs/js/responsive.bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/datatables.net-responsive/.bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/datatables.net-responsive/License.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/datatables.net-responsive/Readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/datatables.net-responsive/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/datatables.net-responsive/js/dataTables.responsive.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/datatables.net-responsive/js/dataTables.responsive.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/datatables.net-scroller-bs/.bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/datatables.net-scroller-bs/License.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/datatables.net-scroller-bs/Readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/datatables.net-scroller-bs/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/datatables.net-scroller-bs/css/scroller.bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/datatables.net-scroller-bs/css/scroller.bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/datatables.net-scroller/.bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/datatables.net-scroller/License.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/datatables.net-scroller/Readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/datatables.net-scroller/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/datatables.net-scroller/js/dataTables.scroller.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/datatables.net-scroller/js/dataTables.scroller.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/datatables.net/.bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/datatables.net/License.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/datatables.net/Readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/datatables.net/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/datatables.net/js/jquery.dataTables.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/datatables.net/js/jquery.dataTables.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/jszip/.bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/jszip/CHANGES.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/jszip/Gruntfile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/jszip/LICENSE.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/jszip/README.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/jszip/_config.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/jszip/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/jszip/component.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/jszip/dist/jszip.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/jszip/dist/jszip.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/jszip/docs/APPNOTE.TXT" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/jszip/docs/ZIP spec.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/jszip/docs/references.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/jszip/documentation/_layouts/default.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/jszip/documentation/api_jszip.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/jszip/documentation/api_jszip/constructor.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/jszip/documentation/api_jszip/constructor_load.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/jszip/documentation/api_jszip/file_data.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/jszip/documentation/api_jszip/file_name.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/jszip/documentation/api_jszip/file_regex.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/jszip/documentation/api_jszip/filter.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/jszip/documentation/api_jszip/folder_data.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/jszip/documentation/api_jszip/folder_regex.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/jszip/documentation/api_jszip/generate.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/jszip/documentation/api_jszip/load.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/jszip/documentation/api_jszip/remove.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/jszip/documentation/api_jszip/support.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/jszip/documentation/api_zipobject.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/jszip/documentation/contributing.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/jszip/documentation/css/main.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/jszip/documentation/css/pygments.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/jszip/documentation/examples.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/jszip/documentation/examples/download-zip-file.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/jszip/documentation/examples/downloader.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/jszip/documentation/examples/downloader.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/jszip/documentation/examples/get-binary-files-ajax.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/jszip/documentation/examples/read-local-file-api.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/jszip/documentation/faq.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/jszip/documentation/howto/read_zip.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/jszip/documentation/howto/write_zip.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/jszip/documentation/limitations.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/jszip/documentation/upgrade_guide.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/jszip/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/jszip/lib/arrayReader.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/jszip/lib/base64.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/jszip/lib/compressedObject.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/jszip/lib/compressions.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/jszip/lib/crc32.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/jszip/lib/dataReader.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/jszip/lib/defaults.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/jszip/lib/deprecatedPublicUtils.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/jszip/lib/flate.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/jszip/lib/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/jszip/lib/license_header.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/jszip/lib/load.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/jszip/lib/nodeBuffer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/jszip/lib/nodeBufferReader.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/jszip/lib/object.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/jszip/lib/signature.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/jszip/lib/stringReader.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/jszip/lib/stringWriter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/jszip/lib/support.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/jszip/lib/uint8ArrayReader.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/jszip/lib/uint8ArrayWriter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/jszip/lib/utf8.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/jszip/lib/utils.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/jszip/lib/zipEntries.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/jszip/lib/zipEntry.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/jszip/vendor/FileSaver.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/pdfmake/.bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/pdfmake/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/pdfmake/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/pdfmake/build/pdfmake.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/pdfmake/build/pdfmake.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/pdfmake/build/pdfmake.min.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/dataTables/pdfmake/build/vfs_fonts.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/views/admin/File Notifications.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/FileNotifications.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/MqttController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/MqttController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/admincontroller.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/admincontroller.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/routes.php" afterPath="$PROJECT_DIR$/app/Http/routes.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/database.php" afterPath="$PROJECT_DIR$/config/database.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/admin/report.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/report.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/admin/send_loc_noty.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/send_loc_noty.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/admin/send_noty.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/send_noty.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/admin/users.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/users.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/layout/footer.blade.php" afterPath="$PROJECT_DIR$/resources/views/layout/footer.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/layout/header.blade.php" afterPath="$PROJECT_DIR$/resources/views/layout/header.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/layout/sidebar.blade.php" afterPath="$PROJECT_DIR$/resources/views/layout/sidebar.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/send_noty.blade.php" afterPath="$PROJECT_DIR$/resources/views/send_noty.blade.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -38,8 +192,8 @@
       <file leaf-file-name="routes.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="16" column="59" lean-forward="false" selection-start-line="16" selection-start-column="59" selection-end-line="16" selection-end-column="59" />
+            <state relative-caret-position="364">
+              <caret line="22" column="61" lean-forward="false" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="61" />
               <folding />
             </state>
           </provider>
@@ -48,18 +202,8 @@
       <file leaf-file-name="send_loc_noty.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/admin/send_loc_noty.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="196" column="43" lean-forward="false" selection-start-line="196" selection-start-column="43" selection-end-line="196" selection-end-column="43" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sidebar.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/layout/sidebar.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="53" column="29" lean-forward="false" selection-start-line="53" selection-start-column="29" selection-end-line="53" selection-end-column="29" />
+            <state relative-caret-position="648">
+              <caret line="207" column="14" lean-forward="false" selection-start-line="207" selection-start-column="14" selection-end-line="207" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -68,34 +212,35 @@
       <file leaf-file-name="admincontroller.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/admincontroller.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="327">
-              <caret line="503" column="4" lean-forward="false" selection-start-line="503" selection-start-column="4" selection-end-line="612" selection-end-column="5" />
+            <state relative-caret-position="1218">
+              <caret line="946" column="0" lean-forward="false" selection-start-line="946" selection-start-column="0" selection-end-line="946" selection-end-column="0" />
               <folding>
                 <element signature="e#40#59#0#PHP" expanded="true" />
-                <marker date="1508947379840" expanded="true" signature="1644:1677" ph="select count... users" />
-                <marker date="1508947379840" expanded="true" signature="1767:1808" ph="select count... notifications" />
-                <marker date="1508947379840" expanded="true" signature="1895:1933" ph="select count... categories" />
-                <marker date="1508947379840" expanded="true" signature="2024:2116" ph="select count... users" />
-                <marker date="1508947379840" expanded="true" signature="2208:2333" ph="select devic... users" />
-                <marker date="1508947379840" expanded="true" signature="2406:2530" ph="select devic... users" />
-                <marker date="1508947379840" expanded="true" signature="2610:2888" ph="SELECT conca... users" />
-                <marker date="1508947379840" expanded="true" signature="2647:2673" ph="SELECT COUNT... users" />
-                <marker date="1508947379840" expanded="true" signature="2753:2779" ph="SELECT COUNT... users" />
-                <marker date="1508947379840" expanded="true" signature="3372:3649" ph="SELECT conca... users" />
-                <marker date="1508947379840" expanded="true" signature="3409:3435" ph="SELECT COUNT... users" />
-                <marker date="1508947379840" expanded="true" signature="3515:3541" ph="SELECT COUNT... users" />
-                <marker date="1508947379840" expanded="true" signature="4135:4193" ph="select count... users" />
-                <marker date="1508947379840" expanded="true" signature="4277:4336" ph="select count... users" />
-                <marker date="1508947379840" expanded="true" signature="4714:4871" ph="select * fro... admin" />
-                <marker date="1508947379840" expanded="true" signature="5283:5317" ph="select cat_n... categories" />
-                <marker date="1508947379840" expanded="true" signature="5670:5689" ph="select * fro... admin" />
-                <marker date="1508947379840" expanded="true" signature="14205:14278" ph="select cat_n... categories" />
-                <marker date="1508947379840" expanded="true" signature="16458:16761" ph="SELECT last_... users" />
-                <marker date="1508947379840" expanded="true" signature="21498:21557" ph="select gcm_i... users" />
-                <marker date="1508947379840" expanded="true" signature="26515:26791" ph="SELECT gcm_i... users" />
-                <marker date="1508947379840" expanded="true" signature="31963:32046" ph="SELECT cat_s... categories" />
-                <marker date="1508947379840" expanded="true" signature="34564:34598" ph="select cat_n... categories" />
-                <marker date="1508947379840" expanded="true" signature="37556:37626" ph="select * fro... admin" />
+                <marker date="1509024103764" expanded="true" signature="1644:1677" ph="select count... users" />
+                <marker date="1509024103764" expanded="true" signature="1767:1808" ph="select count... notifications" />
+                <marker date="1509024103764" expanded="true" signature="1895:1933" ph="select count... categories" />
+                <marker date="1509024103764" expanded="true" signature="2024:2116" ph="select count... users" />
+                <marker date="1509024103764" expanded="true" signature="2208:2333" ph="select devic... users" />
+                <marker date="1509024103764" expanded="true" signature="2406:2530" ph="select devic... users" />
+                <marker date="1509024103764" expanded="true" signature="2610:2888" ph="SELECT conca... users" />
+                <marker date="1509024103764" expanded="true" signature="2647:2673" ph="SELECT COUNT... users" />
+                <marker date="1509024103764" expanded="true" signature="2753:2779" ph="SELECT COUNT... users" />
+                <marker date="1509024103764" expanded="true" signature="3372:3649" ph="SELECT conca... users" />
+                <marker date="1509024103764" expanded="true" signature="3409:3435" ph="SELECT COUNT... users" />
+                <marker date="1509024103764" expanded="true" signature="3515:3541" ph="SELECT COUNT... users" />
+                <marker date="1509024103764" expanded="true" signature="4135:4193" ph="select count... users" />
+                <marker date="1509024103764" expanded="true" signature="4277:4336" ph="select count... users" />
+                <marker date="1509024103764" expanded="true" signature="4714:4871" ph="select * fro... admin" />
+                <marker date="1509024103764" expanded="true" signature="5283:5317" ph="select cat_n... categories" />
+                <marker date="1509024103764" expanded="true" signature="5670:5689" ph="select * fro... admin" />
+                <marker date="1509024103764" expanded="true" signature="14205:14278" ph="select cat_n... categories" />
+                <marker date="1509024103764" expanded="true" signature="16458:16761" ph="SELECT last_... users" />
+                <marker date="1509024103764" expanded="true" signature="21498:21557" ph="select gcm_i... users" />
+                <marker date="1509024103764" expanded="true" signature="26515:26791" ph="SELECT gcm_i... users" />
+                <marker date="1509024103764" expanded="true" signature="31963:32046" ph="SELECT cat_s... categories" />
+                <marker date="1509024103764" expanded="true" signature="34564:34598" ph="select cat_n... categories" />
+                <marker date="1509024103764" expanded="true" signature="37556:37626" ph="select * fro... admin" />
+                <marker date="1509024103764" expanded="true" signature="39820:39854" ph="select cat_n... categories" />
               </folding>
             </state>
           </provider>
@@ -104,23 +249,23 @@
       <file leaf-file-name="MqttController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/MqttController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="73" column="50" lean-forward="false" selection-start-line="73" selection-start-column="50" selection-end-line="73" selection-end-column="50" />
+            <state relative-caret-position="2408">
+              <caret line="86" column="37" lean-forward="false" selection-start-line="86" selection-start-column="37" selection-end-line="86" selection-end-column="37" />
               <folding>
                 <element signature="e#40#57#0#PHP" expanded="true" />
-                <marker date="1508953651419" expanded="true" signature="8691:8774" ph="SELECT cat_s... categories" />
-                <marker date="1508953651419" expanded="true" signature="13871:13954" ph="SELECT cat_s... categories" />
-                <marker date="1508953651419" expanded="true" signature="14114:14151" ph="SELECT gcm_i... users" />
-                <marker date="1508953651419" expanded="true" signature="14114:14152" ph="SELECT gcm_i... users" />
-                <marker date="1508953651419" expanded="true" signature="14114:14169" ph="SELECT gcm_i... users" />
-                <marker date="1508953651419" expanded="true" signature="14114:14170" ph="SELECT gcm_i... users" />
-                <marker date="1508953651419" expanded="true" signature="19198:19474" ph="SELECT gcm_i... users" />
-                <marker date="1508953651419" expanded="true" signature="20089:20125" ph="insert into test... " />
-                <marker date="1508953651419" expanded="true" signature="20089:20126" ph="insert into test... " />
-                <marker date="1508953651419" expanded="true" signature="20089:20151" ph="insert into test... " />
-                <marker date="1508953651419" expanded="true" signature="20089:20154" ph="insert into test... " />
-                <marker date="1508953651419" expanded="true" signature="20089:20156" ph="insert into test... " />
-                <marker date="1508953651419" expanded="true" signature="20089:20206" ph="insert into test... " />
+                <marker date="1509027216284" expanded="true" signature="8665:8748" ph="SELECT cat_s... categories" />
+                <marker date="1509027216284" expanded="true" signature="13845:13928" ph="SELECT cat_s... categories" />
+                <marker date="1509027216284" expanded="true" signature="14088:14125" ph="SELECT gcm_i... users" />
+                <marker date="1509027216284" expanded="true" signature="14088:14126" ph="SELECT gcm_i... users" />
+                <marker date="1509027216284" expanded="true" signature="14088:14143" ph="SELECT gcm_i... users" />
+                <marker date="1509027216284" expanded="true" signature="14088:14144" ph="SELECT gcm_i... users" />
+                <marker date="1509027216284" expanded="true" signature="19172:19448" ph="SELECT gcm_i... users" />
+                <marker date="1509027216284" expanded="true" signature="20063:20099" ph="insert into test... " />
+                <marker date="1509027216284" expanded="true" signature="20063:20100" ph="insert into test... " />
+                <marker date="1509027216284" expanded="true" signature="20063:20125" ph="insert into test... " />
+                <marker date="1509027216284" expanded="true" signature="20063:20128" ph="insert into test... " />
+                <marker date="1509027216284" expanded="true" signature="20063:20130" ph="insert into test... " />
+                <marker date="1509027216284" expanded="true" signature="20063:20180" ph="insert into test... " />
               </folding>
             </state>
           </provider>
@@ -130,13 +275,11 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>install</find>
       <find>btn-loading</find>
       <find>sendnot</find>
       <find>mas</find>
       <find>mass</find>
       <find>ssdsdsd</find>
-      <find>main</find>
       <find>form</find>
       <find>.chk</find>
       <find>chk</find>
@@ -156,7 +299,17 @@
       <find>to</find>
       <find>location</find>
       <find>mass_noty</find>
+      <find>main</find>
+      <find>report</find>
+      <find>{{url()}}/datables</find>
+      <find>{{url()}}/datatables</find>
+      <find>{url()}}/plugins/data</find>
+      <find>datables</find>
     </findStrings>
+    <replaceStrings>
+      <replace>{url()}}/plugins/datables</replace>
+      <replace>dataTables</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -170,21 +323,22 @@
         <option value="$PROJECT_DIR$/app/User.php" />
         <option value="$PROJECT_DIR$/app/UserCategory.php" />
         <option value="$PROJECT_DIR$/app/Category.php" />
-        <option value="$PROJECT_DIR$/resources/views/layout/footer.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/layout/header.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/send_noty.blade.php" />
-        <option value="$PROJECT_DIR$/config/database.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/dashboard.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/admin/users.blade.php" />
         <option value="$PROJECT_DIR$/app/notification.php" />
         <option value="$PROJECT_DIR$/app/user_notification.php" />
-        <option value="$PROJECT_DIR$/resources/views/admin/report.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/admincontroller.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/File Notifications.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/layout/sidebar.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/admin/send_noty.blade.php" />
+        <option value="$PROJECT_DIR$/config/database.php" />
         <option value="$PROJECT_DIR$/app/Http/routes.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/send_noty.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/layout/sidebar.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/users.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/send_loc_noty.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/FileNotifications.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/admincontroller.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/report.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/layout/footer.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/layout/header.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/MqttController.php" />
       </list>
     </option>
@@ -284,28 +438,6 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mqtt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mqtt" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="admin" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -320,7 +452,91 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="bootstrap" />
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mqtt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mqtt" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dataTables" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mqtt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mqtt" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dataTables" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="datatables.net-scroller-bs" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mqtt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mqtt" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dataTables" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="datatables.net-scroller-bs" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scroller.bootstrap.css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NestingTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mqtt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mqtt" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -347,6 +563,12 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../epub" />
+    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\mqtt\plugins\dataTables" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -449,12 +671,12 @@
       <workItem from="1508212475574" duration="9469000" />
       <workItem from="1508332292857" duration="2275000" />
       <workItem from="1508334573761" duration="15605000" />
-      <workItem from="1508848264682" duration="32302000" />
+      <workItem from="1508848264682" duration="42044000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87708000" />
+    <option name="totallyTimeSpent" value="97450000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1932" height="1060" extended-state="0" />
@@ -516,112 +738,34 @@
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/admincontroller.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21168">
-          <caret line="771" column="8" lean-forward="false" selection-start-line="771" selection-start-column="8" selection-end-line="772" selection-end-column="12" />
-          <folding>
-            <element signature="e#40#59#0#PHP" expanded="true" />
-            <marker date="1508947379840" expanded="true" signature="1644:1677" ph="select count... users" />
-            <marker date="1508947379840" expanded="true" signature="1767:1808" ph="select count... notifications" />
-            <marker date="1508947379840" expanded="true" signature="1895:1933" ph="select count... categories" />
-            <marker date="1508947379840" expanded="true" signature="2024:2116" ph="select count... users" />
-            <marker date="1508947379840" expanded="true" signature="2208:2333" ph="select devic... users" />
-            <marker date="1508947379840" expanded="true" signature="2406:2530" ph="select devic... users" />
-            <marker date="1508947379840" expanded="true" signature="2610:2888" ph="SELECT conca... users" />
-            <marker date="1508947379840" expanded="true" signature="2647:2673" ph="SELECT COUNT... users" />
-            <marker date="1508947379840" expanded="true" signature="2753:2779" ph="SELECT COUNT... users" />
-            <marker date="1508947379840" expanded="true" signature="3372:3649" ph="SELECT conca... users" />
-            <marker date="1508947379840" expanded="true" signature="3409:3435" ph="SELECT COUNT... users" />
-            <marker date="1508947379840" expanded="true" signature="3515:3541" ph="SELECT COUNT... users" />
-            <marker date="1508947379840" expanded="true" signature="4135:4193" ph="select count... users" />
-            <marker date="1508947379840" expanded="true" signature="4277:4336" ph="select count... users" />
-            <marker date="1508947379840" expanded="true" signature="4714:4871" ph="select * fro... admin" />
-            <marker date="1508947379840" expanded="true" signature="5283:5317" ph="select cat_n... categories" />
-            <marker date="1508947379840" expanded="true" signature="5670:5689" ph="select * fro... admin" />
-            <marker date="1508947379840" expanded="true" signature="14205:14278" ph="select cat_n... categories" />
-            <marker date="1508947379840" expanded="true" signature="16458:16761" ph="SELECT last_... users" />
-            <marker date="1508947379840" expanded="true" signature="21498:21557" ph="select gcm_i... users" />
-            <marker date="1508947379840" expanded="true" signature="26515:26791" ph="SELECT gcm_i... users" />
-            <marker date="1508947379840" expanded="true" signature="31963:32046" ph="SELECT cat_s... categories" />
-            <marker date="1508947379840" expanded="true" signature="34564:34598" ph="select cat_n... categories" />
-            <marker date="1508947379840" expanded="true" signature="37556:37626" ph="select * fro... admin" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/send_noty.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4396">
-          <caret line="157" column="53" lean-forward="false" selection-start-line="157" selection-start-column="53" selection-end-line="157" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/MqttController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="32" column="16" lean-forward="false" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
-          <folding>
-            <element signature="e#40#57#0#PHP" expanded="true" />
-            <marker date="1508953651419" expanded="true" signature="8691:8774" ph="SELECT cat_s... categories" />
-            <marker date="1508953651419" expanded="true" signature="13871:13954" ph="SELECT cat_s... categories" />
-            <marker date="1508953651419" expanded="true" signature="14114:14151" ph="SELECT gcm_i... users" />
-            <marker date="1508953651419" expanded="true" signature="14114:14152" ph="SELECT gcm_i... users" />
-            <marker date="1508953651419" expanded="true" signature="14114:14169" ph="SELECT gcm_i... users" />
-            <marker date="1508953651419" expanded="true" signature="14114:14170" ph="SELECT gcm_i... users" />
-            <marker date="1508953651419" expanded="true" signature="19198:19474" ph="SELECT gcm_i... users" />
-            <marker date="1508953651419" expanded="true" signature="20089:20125" ph="insert into test... " />
-            <marker date="1508953651419" expanded="true" signature="20089:20126" ph="insert into test... " />
-            <marker date="1508953651419" expanded="true" signature="20089:20151" ph="insert into test... " />
-            <marker date="1508953651419" expanded="true" signature="20089:20154" ph="insert into test... " />
-            <marker date="1508953651419" expanded="true" signature="20089:20156" ph="insert into test... " />
-            <marker date="1508953651419" expanded="true" signature="20089:20206" ph="insert into test... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="18" column="59" lean-forward="false" selection-start-line="18" selection-start-column="59" selection-end-line="18" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="14" column="49" lean-forward="false" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/admincontroller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21168">
           <caret line="771" column="8" lean-forward="true" selection-start-line="771" selection-start-column="8" selection-end-line="772" selection-end-column="12" />
           <folding>
             <element signature="e#40#59#0#PHP" expanded="true" />
-            <marker date="1508947379840" expanded="true" signature="1644:1677" ph="select count... users" />
-            <marker date="1508947379840" expanded="true" signature="1767:1808" ph="select count... notifications" />
-            <marker date="1508947379840" expanded="true" signature="1895:1933" ph="select count... categories" />
-            <marker date="1508947379840" expanded="true" signature="2024:2116" ph="select count... users" />
-            <marker date="1508947379840" expanded="true" signature="2208:2333" ph="select devic... users" />
-            <marker date="1508947379840" expanded="true" signature="2406:2530" ph="select devic... users" />
-            <marker date="1508947379840" expanded="true" signature="2610:2888" ph="SELECT conca... users" />
-            <marker date="1508947379840" expanded="true" signature="2647:2673" ph="SELECT COUNT... users" />
-            <marker date="1508947379840" expanded="true" signature="2753:2779" ph="SELECT COUNT... users" />
-            <marker date="1508947379840" expanded="true" signature="3372:3649" ph="SELECT conca... users" />
-            <marker date="1508947379840" expanded="true" signature="3409:3435" ph="SELECT COUNT... users" />
-            <marker date="1508947379840" expanded="true" signature="3515:3541" ph="SELECT COUNT... users" />
-            <marker date="1508947379840" expanded="true" signature="4135:4193" ph="select count... users" />
-            <marker date="1508947379840" expanded="true" signature="4277:4336" ph="select count... users" />
-            <marker date="1508947379840" expanded="true" signature="4714:4871" ph="select * fro... admin" />
-            <marker date="1508947379840" expanded="true" signature="5283:5317" ph="select cat_n... categories" />
-            <marker date="1508947379840" expanded="true" signature="5670:5689" ph="select * fro... admin" />
-            <marker date="1508947379840" expanded="true" signature="14205:14278" ph="select cat_n... categories" />
-            <marker date="1508947379840" expanded="true" signature="16458:16761" ph="SELECT last_... users" />
-            <marker date="1508947379840" expanded="true" signature="21498:21557" ph="select gcm_i... users" />
-            <marker date="1508947379840" expanded="true" signature="26515:26791" ph="SELECT gcm_i... users" />
-            <marker date="1508947379840" expanded="true" signature="31963:32046" ph="SELECT cat_s... categories" />
-            <marker date="1508947379840" expanded="true" signature="34564:34598" ph="select cat_n... categories" />
-            <marker date="1508947379840" expanded="true" signature="37556:37626" ph="select * fro... admin" />
+            <marker date="1509024103764" expanded="true" signature="1644:1677" ph="select count... users" />
+            <marker date="1509024103764" expanded="true" signature="1767:1808" ph="select count... notifications" />
+            <marker date="1509024103764" expanded="true" signature="1895:1933" ph="select count... categories" />
+            <marker date="1509024103764" expanded="true" signature="2024:2116" ph="select count... users" />
+            <marker date="1509024103764" expanded="true" signature="2208:2333" ph="select devic... users" />
+            <marker date="1509024103764" expanded="true" signature="2406:2530" ph="select devic... users" />
+            <marker date="1509024103764" expanded="true" signature="2610:2888" ph="SELECT conca... users" />
+            <marker date="1509024103764" expanded="true" signature="2647:2673" ph="SELECT COUNT... users" />
+            <marker date="1509024103764" expanded="true" signature="2753:2779" ph="SELECT COUNT... users" />
+            <marker date="1509024103764" expanded="true" signature="3372:3649" ph="SELECT conca... users" />
+            <marker date="1509024103764" expanded="true" signature="3409:3435" ph="SELECT COUNT... users" />
+            <marker date="1509024103764" expanded="true" signature="3515:3541" ph="SELECT COUNT... users" />
+            <marker date="1509024103764" expanded="true" signature="4135:4193" ph="select count... users" />
+            <marker date="1509024103764" expanded="true" signature="4277:4336" ph="select count... users" />
+            <marker date="1509024103764" expanded="true" signature="4714:4871" ph="select * fro... admin" />
+            <marker date="1509024103764" expanded="true" signature="5283:5317" ph="select cat_n... categories" />
+            <marker date="1509024103764" expanded="true" signature="5670:5689" ph="select * fro... admin" />
+            <marker date="1509024103764" expanded="true" signature="14205:14278" ph="select cat_n... categories" />
+            <marker date="1509024103764" expanded="true" signature="16458:16761" ph="SELECT last_... users" />
+            <marker date="1509024103764" expanded="true" signature="21498:21557" ph="select gcm_i... users" />
+            <marker date="1509024103764" expanded="true" signature="26515:26791" ph="SELECT gcm_i... users" />
+            <marker date="1509024103764" expanded="true" signature="31963:32046" ph="SELECT cat_s... categories" />
+            <marker date="1509024103764" expanded="true" signature="34564:34598" ph="select cat_n... categories" />
+            <marker date="1509024103764" expanded="true" signature="37556:37626" ph="select * fro... admin" />
+            <marker date="1509024103764" expanded="true" signature="39820:39854" ph="select cat_n... categories" />
           </folding>
         </state>
       </provider>
@@ -639,19 +783,19 @@
           <caret line="32" column="16" lean-forward="true" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
           <folding>
             <element signature="e#40#57#0#PHP" expanded="true" />
-            <marker date="1508953651419" expanded="true" signature="8691:8774" ph="SELECT cat_s... categories" />
-            <marker date="1508953651419" expanded="true" signature="13871:13954" ph="SELECT cat_s... categories" />
-            <marker date="1508953651419" expanded="true" signature="14114:14151" ph="SELECT gcm_i... users" />
-            <marker date="1508953651419" expanded="true" signature="14114:14152" ph="SELECT gcm_i... users" />
-            <marker date="1508953651419" expanded="true" signature="14114:14169" ph="SELECT gcm_i... users" />
-            <marker date="1508953651419" expanded="true" signature="14114:14170" ph="SELECT gcm_i... users" />
-            <marker date="1508953651419" expanded="true" signature="19198:19474" ph="SELECT gcm_i... users" />
-            <marker date="1508953651419" expanded="true" signature="20089:20125" ph="insert into test... " />
-            <marker date="1508953651419" expanded="true" signature="20089:20126" ph="insert into test... " />
-            <marker date="1508953651419" expanded="true" signature="20089:20151" ph="insert into test... " />
-            <marker date="1508953651419" expanded="true" signature="20089:20154" ph="insert into test... " />
-            <marker date="1508953651419" expanded="true" signature="20089:20156" ph="insert into test... " />
-            <marker date="1508953651419" expanded="true" signature="20089:20206" ph="insert into test... " />
+            <marker date="1509027216284" expanded="true" signature="8665:8748" ph="SELECT cat_s... categories" />
+            <marker date="1509027216284" expanded="true" signature="13845:13928" ph="SELECT cat_s... categories" />
+            <marker date="1509027216284" expanded="true" signature="14088:14125" ph="SELECT gcm_i... users" />
+            <marker date="1509027216284" expanded="true" signature="14088:14126" ph="SELECT gcm_i... users" />
+            <marker date="1509027216284" expanded="true" signature="14088:14143" ph="SELECT gcm_i... users" />
+            <marker date="1509027216284" expanded="true" signature="14088:14144" ph="SELECT gcm_i... users" />
+            <marker date="1509027216284" expanded="true" signature="19172:19448" ph="SELECT gcm_i... users" />
+            <marker date="1509027216284" expanded="true" signature="20063:20099" ph="insert into test... " />
+            <marker date="1509027216284" expanded="true" signature="20063:20100" ph="insert into test... " />
+            <marker date="1509027216284" expanded="true" signature="20063:20125" ph="insert into test... " />
+            <marker date="1509027216284" expanded="true" signature="20063:20128" ph="insert into test... " />
+            <marker date="1509027216284" expanded="true" signature="20063:20130" ph="insert into test... " />
+            <marker date="1509027216284" expanded="true" signature="20063:20180" ph="insert into test... " />
           </folding>
         </state>
       </provider>
@@ -670,30 +814,31 @@
           <caret line="632" column="23" lean-forward="false" selection-start-line="632" selection-start-column="23" selection-end-line="632" selection-end-column="23" />
           <folding>
             <element signature="e#40#59#0#PHP" expanded="true" />
-            <marker date="1508947379840" expanded="true" signature="1644:1677" ph="select count... users" />
-            <marker date="1508947379840" expanded="true" signature="1767:1808" ph="select count... notifications" />
-            <marker date="1508947379840" expanded="true" signature="1895:1933" ph="select count... categories" />
-            <marker date="1508947379840" expanded="true" signature="2024:2116" ph="select count... users" />
-            <marker date="1508947379840" expanded="true" signature="2208:2333" ph="select devic... users" />
-            <marker date="1508947379840" expanded="true" signature="2406:2530" ph="select devic... users" />
-            <marker date="1508947379840" expanded="true" signature="2610:2888" ph="SELECT conca... users" />
-            <marker date="1508947379840" expanded="true" signature="2647:2673" ph="SELECT COUNT... users" />
-            <marker date="1508947379840" expanded="true" signature="2753:2779" ph="SELECT COUNT... users" />
-            <marker date="1508947379840" expanded="true" signature="3372:3649" ph="SELECT conca... users" />
-            <marker date="1508947379840" expanded="true" signature="3409:3435" ph="SELECT COUNT... users" />
-            <marker date="1508947379840" expanded="true" signature="3515:3541" ph="SELECT COUNT... users" />
-            <marker date="1508947379840" expanded="true" signature="4135:4193" ph="select count... users" />
-            <marker date="1508947379840" expanded="true" signature="4277:4336" ph="select count... users" />
-            <marker date="1508947379840" expanded="true" signature="4714:4871" ph="select * fro... admin" />
-            <marker date="1508947379840" expanded="true" signature="5283:5317" ph="select cat_n... categories" />
-            <marker date="1508947379840" expanded="true" signature="5670:5689" ph="select * fro... admin" />
-            <marker date="1508947379840" expanded="true" signature="14205:14278" ph="select cat_n... categories" />
-            <marker date="1508947379840" expanded="true" signature="16458:16761" ph="SELECT last_... users" />
-            <marker date="1508947379840" expanded="true" signature="21498:21557" ph="select gcm_i... users" />
-            <marker date="1508947379840" expanded="true" signature="26515:26791" ph="SELECT gcm_i... users" />
-            <marker date="1508947379840" expanded="true" signature="31963:32046" ph="SELECT cat_s... categories" />
-            <marker date="1508947379840" expanded="true" signature="34564:34598" ph="select cat_n... categories" />
-            <marker date="1508947379840" expanded="true" signature="37556:37626" ph="select * fro... admin" />
+            <marker date="1509024103764" expanded="true" signature="1644:1677" ph="select count... users" />
+            <marker date="1509024103764" expanded="true" signature="1767:1808" ph="select count... notifications" />
+            <marker date="1509024103764" expanded="true" signature="1895:1933" ph="select count... categories" />
+            <marker date="1509024103764" expanded="true" signature="2024:2116" ph="select count... users" />
+            <marker date="1509024103764" expanded="true" signature="2208:2333" ph="select devic... users" />
+            <marker date="1509024103764" expanded="true" signature="2406:2530" ph="select devic... users" />
+            <marker date="1509024103764" expanded="true" signature="2610:2888" ph="SELECT conca... users" />
+            <marker date="1509024103764" expanded="true" signature="2647:2673" ph="SELECT COUNT... users" />
+            <marker date="1509024103764" expanded="true" signature="2753:2779" ph="SELECT COUNT... users" />
+            <marker date="1509024103764" expanded="true" signature="3372:3649" ph="SELECT conca... users" />
+            <marker date="1509024103764" expanded="true" signature="3409:3435" ph="SELECT COUNT... users" />
+            <marker date="1509024103764" expanded="true" signature="3515:3541" ph="SELECT COUNT... users" />
+            <marker date="1509024103764" expanded="true" signature="4135:4193" ph="select count... users" />
+            <marker date="1509024103764" expanded="true" signature="4277:4336" ph="select count... users" />
+            <marker date="1509024103764" expanded="true" signature="4714:4871" ph="select * fro... admin" />
+            <marker date="1509024103764" expanded="true" signature="5283:5317" ph="select cat_n... categories" />
+            <marker date="1509024103764" expanded="true" signature="5670:5689" ph="select * fro... admin" />
+            <marker date="1509024103764" expanded="true" signature="14205:14278" ph="select cat_n... categories" />
+            <marker date="1509024103764" expanded="true" signature="16458:16761" ph="SELECT last_... users" />
+            <marker date="1509024103764" expanded="true" signature="21498:21557" ph="select gcm_i... users" />
+            <marker date="1509024103764" expanded="true" signature="26515:26791" ph="SELECT gcm_i... users" />
+            <marker date="1509024103764" expanded="true" signature="31963:32046" ph="SELECT cat_s... categories" />
+            <marker date="1509024103764" expanded="true" signature="34564:34598" ph="select cat_n... categories" />
+            <marker date="1509024103764" expanded="true" signature="37556:37626" ph="select * fro... admin" />
+            <marker date="1509024103764" expanded="true" signature="39820:39854" ph="select cat_n... categories" />
           </folding>
         </state>
       </provider>
@@ -712,30 +857,31 @@
           <caret line="632" column="23" lean-forward="false" selection-start-line="632" selection-start-column="23" selection-end-line="632" selection-end-column="23" />
           <folding>
             <element signature="e#40#59#0#PHP" expanded="true" />
-            <marker date="1508947379840" expanded="true" signature="1644:1677" ph="select count... users" />
-            <marker date="1508947379840" expanded="true" signature="1767:1808" ph="select count... notifications" />
-            <marker date="1508947379840" expanded="true" signature="1895:1933" ph="select count... categories" />
-            <marker date="1508947379840" expanded="true" signature="2024:2116" ph="select count... users" />
-            <marker date="1508947379840" expanded="true" signature="2208:2333" ph="select devic... users" />
-            <marker date="1508947379840" expanded="true" signature="2406:2530" ph="select devic... users" />
-            <marker date="1508947379840" expanded="true" signature="2610:2888" ph="SELECT conca... users" />
-            <marker date="1508947379840" expanded="true" signature="2647:2673" ph="SELECT COUNT... users" />
-            <marker date="1508947379840" expanded="true" signature="2753:2779" ph="SELECT COUNT... users" />
-            <marker date="1508947379840" expanded="true" signature="3372:3649" ph="SELECT conca... users" />
-            <marker date="1508947379840" expanded="true" signature="3409:3435" ph="SELECT COUNT... users" />
-            <marker date="1508947379840" expanded="true" signature="3515:3541" ph="SELECT COUNT... users" />
-            <marker date="1508947379840" expanded="true" signature="4135:4193" ph="select count... users" />
-            <marker date="1508947379840" expanded="true" signature="4277:4336" ph="select count... users" />
-            <marker date="1508947379840" expanded="true" signature="4714:4871" ph="select * fro... admin" />
-            <marker date="1508947379840" expanded="true" signature="5283:5317" ph="select cat_n... categories" />
-            <marker date="1508947379840" expanded="true" signature="5670:5689" ph="select * fro... admin" />
-            <marker date="1508947379840" expanded="true" signature="14205:14278" ph="select cat_n... categories" />
-            <marker date="1508947379840" expanded="true" signature="16458:16761" ph="SELECT last_... users" />
-            <marker date="1508947379840" expanded="true" signature="21498:21557" ph="select gcm_i... users" />
-            <marker date="1508947379840" expanded="true" signature="26515:26791" ph="SELECT gcm_i... users" />
-            <marker date="1508947379840" expanded="true" signature="31963:32046" ph="SELECT cat_s... categories" />
-            <marker date="1508947379840" expanded="true" signature="34564:34598" ph="select cat_n... categories" />
-            <marker date="1508947379840" expanded="true" signature="37556:37626" ph="select * fro... admin" />
+            <marker date="1509024103764" expanded="true" signature="1644:1677" ph="select count... users" />
+            <marker date="1509024103764" expanded="true" signature="1767:1808" ph="select count... notifications" />
+            <marker date="1509024103764" expanded="true" signature="1895:1933" ph="select count... categories" />
+            <marker date="1509024103764" expanded="true" signature="2024:2116" ph="select count... users" />
+            <marker date="1509024103764" expanded="true" signature="2208:2333" ph="select devic... users" />
+            <marker date="1509024103764" expanded="true" signature="2406:2530" ph="select devic... users" />
+            <marker date="1509024103764" expanded="true" signature="2610:2888" ph="SELECT conca... users" />
+            <marker date="1509024103764" expanded="true" signature="2647:2673" ph="SELECT COUNT... users" />
+            <marker date="1509024103764" expanded="true" signature="2753:2779" ph="SELECT COUNT... users" />
+            <marker date="1509024103764" expanded="true" signature="3372:3649" ph="SELECT conca... users" />
+            <marker date="1509024103764" expanded="true" signature="3409:3435" ph="SELECT COUNT... users" />
+            <marker date="1509024103764" expanded="true" signature="3515:3541" ph="SELECT COUNT... users" />
+            <marker date="1509024103764" expanded="true" signature="4135:4193" ph="select count... users" />
+            <marker date="1509024103764" expanded="true" signature="4277:4336" ph="select count... users" />
+            <marker date="1509024103764" expanded="true" signature="4714:4871" ph="select * fro... admin" />
+            <marker date="1509024103764" expanded="true" signature="5283:5317" ph="select cat_n... categories" />
+            <marker date="1509024103764" expanded="true" signature="5670:5689" ph="select * fro... admin" />
+            <marker date="1509024103764" expanded="true" signature="14205:14278" ph="select cat_n... categories" />
+            <marker date="1509024103764" expanded="true" signature="16458:16761" ph="SELECT last_... users" />
+            <marker date="1509024103764" expanded="true" signature="21498:21557" ph="select gcm_i... users" />
+            <marker date="1509024103764" expanded="true" signature="26515:26791" ph="SELECT gcm_i... users" />
+            <marker date="1509024103764" expanded="true" signature="31963:32046" ph="SELECT cat_s... categories" />
+            <marker date="1509024103764" expanded="true" signature="34564:34598" ph="select cat_n... categories" />
+            <marker date="1509024103764" expanded="true" signature="37556:37626" ph="select * fro... admin" />
+            <marker date="1509024103764" expanded="true" signature="39820:39854" ph="select cat_n... categories" />
           </folding>
         </state>
       </provider>
@@ -768,30 +914,31 @@
           <caret line="626" column="55" lean-forward="true" selection-start-line="626" selection-start-column="55" selection-end-line="626" selection-end-column="55" />
           <folding>
             <element signature="e#40#59#0#PHP" expanded="true" />
-            <marker date="1508947379840" expanded="true" signature="1644:1677" ph="select count... users" />
-            <marker date="1508947379840" expanded="true" signature="1767:1808" ph="select count... notifications" />
-            <marker date="1508947379840" expanded="true" signature="1895:1933" ph="select count... categories" />
-            <marker date="1508947379840" expanded="true" signature="2024:2116" ph="select count... users" />
-            <marker date="1508947379840" expanded="true" signature="2208:2333" ph="select devic... users" />
-            <marker date="1508947379840" expanded="true" signature="2406:2530" ph="select devic... users" />
-            <marker date="1508947379840" expanded="true" signature="2610:2888" ph="SELECT conca... users" />
-            <marker date="1508947379840" expanded="true" signature="2647:2673" ph="SELECT COUNT... users" />
-            <marker date="1508947379840" expanded="true" signature="2753:2779" ph="SELECT COUNT... users" />
-            <marker date="1508947379840" expanded="true" signature="3372:3649" ph="SELECT conca... users" />
-            <marker date="1508947379840" expanded="true" signature="3409:3435" ph="SELECT COUNT... users" />
-            <marker date="1508947379840" expanded="true" signature="3515:3541" ph="SELECT COUNT... users" />
-            <marker date="1508947379840" expanded="true" signature="4135:4193" ph="select count... users" />
-            <marker date="1508947379840" expanded="true" signature="4277:4336" ph="select count... users" />
-            <marker date="1508947379840" expanded="true" signature="4714:4871" ph="select * fro... admin" />
-            <marker date="1508947379840" expanded="true" signature="5283:5317" ph="select cat_n... categories" />
-            <marker date="1508947379840" expanded="true" signature="5670:5689" ph="select * fro... admin" />
-            <marker date="1508947379840" expanded="true" signature="14205:14278" ph="select cat_n... categories" />
-            <marker date="1508947379840" expanded="true" signature="16458:16761" ph="SELECT last_... users" />
-            <marker date="1508947379840" expanded="true" signature="21498:21557" ph="select gcm_i... users" />
-            <marker date="1508947379840" expanded="true" signature="26515:26791" ph="SELECT gcm_i... users" />
-            <marker date="1508947379840" expanded="true" signature="31963:32046" ph="SELECT cat_s... categories" />
-            <marker date="1508947379840" expanded="true" signature="34564:34598" ph="select cat_n... categories" />
-            <marker date="1508947379840" expanded="true" signature="37556:37626" ph="select * fro... admin" />
+            <marker date="1509024103764" expanded="true" signature="1644:1677" ph="select count... users" />
+            <marker date="1509024103764" expanded="true" signature="1767:1808" ph="select count... notifications" />
+            <marker date="1509024103764" expanded="true" signature="1895:1933" ph="select count... categories" />
+            <marker date="1509024103764" expanded="true" signature="2024:2116" ph="select count... users" />
+            <marker date="1509024103764" expanded="true" signature="2208:2333" ph="select devic... users" />
+            <marker date="1509024103764" expanded="true" signature="2406:2530" ph="select devic... users" />
+            <marker date="1509024103764" expanded="true" signature="2610:2888" ph="SELECT conca... users" />
+            <marker date="1509024103764" expanded="true" signature="2647:2673" ph="SELECT COUNT... users" />
+            <marker date="1509024103764" expanded="true" signature="2753:2779" ph="SELECT COUNT... users" />
+            <marker date="1509024103764" expanded="true" signature="3372:3649" ph="SELECT conca... users" />
+            <marker date="1509024103764" expanded="true" signature="3409:3435" ph="SELECT COUNT... users" />
+            <marker date="1509024103764" expanded="true" signature="3515:3541" ph="SELECT COUNT... users" />
+            <marker date="1509024103764" expanded="true" signature="4135:4193" ph="select count... users" />
+            <marker date="1509024103764" expanded="true" signature="4277:4336" ph="select count... users" />
+            <marker date="1509024103764" expanded="true" signature="4714:4871" ph="select * fro... admin" />
+            <marker date="1509024103764" expanded="true" signature="5283:5317" ph="select cat_n... categories" />
+            <marker date="1509024103764" expanded="true" signature="5670:5689" ph="select * fro... admin" />
+            <marker date="1509024103764" expanded="true" signature="14205:14278" ph="select cat_n... categories" />
+            <marker date="1509024103764" expanded="true" signature="16458:16761" ph="SELECT last_... users" />
+            <marker date="1509024103764" expanded="true" signature="21498:21557" ph="select gcm_i... users" />
+            <marker date="1509024103764" expanded="true" signature="26515:26791" ph="SELECT gcm_i... users" />
+            <marker date="1509024103764" expanded="true" signature="31963:32046" ph="SELECT cat_s... categories" />
+            <marker date="1509024103764" expanded="true" signature="34564:34598" ph="select cat_n... categories" />
+            <marker date="1509024103764" expanded="true" signature="37556:37626" ph="select * fro... admin" />
+            <marker date="1509024103764" expanded="true" signature="39820:39854" ph="select cat_n... categories" />
           </folding>
         </state>
       </provider>
@@ -908,13 +1055,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layout/footer.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="10" column="24" lean-forward="false" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/send_noty.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4116">
@@ -926,13 +1066,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="20" column="47" lean-forward="true" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
         </state>
       </provider>
     </entry>
@@ -953,14 +1086,6 @@
             <marker date="1508908807115" expanded="true" signature="4524:4548" ph="..." />
             <marker date="1508908807115" expanded="true" signature="4924:4983" ph="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layout/header.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1050">
-          <caret line="125" column="66" lean-forward="false" selection-start-line="125" selection-start-column="66" selection-end-line="125" selection-end-column="66" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -988,115 +1113,188 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/users.blade.php">
+    <entry file="file://$PROJECT_DIR$/config/database.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="798">
-          <caret line="556" column="0" lean-forward="false" selection-start-line="556" selection-start-column="0" selection-end-line="556" selection-end-column="25" />
+        <state relative-caret-position="409">
+          <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/report.blade.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/send_noty.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="41" column="88" lean-forward="false" selection-start-line="41" selection-start-column="88" selection-end-line="41" selection-end-column="88" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/File Notifications.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="191" column="80" lean-forward="true" selection-start-line="190" selection-start-column="44" selection-end-line="191" selection-end-column="80" />
+        <state relative-caret-position="416">
+          <caret line="196" column="87" lean-forward="true" selection-start-line="196" selection-start-column="87" selection-end-line="196" selection-end-column="87" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/layout/sidebar.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="53" column="29" lean-forward="false" selection-start-line="53" selection-start-column="29" selection-end-line="53" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/admincontroller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="503" column="4" lean-forward="false" selection-start-line="503" selection-start-column="4" selection-end-line="612" selection-end-column="5" />
-          <folding>
-            <element signature="e#40#59#0#PHP" expanded="true" />
-            <marker date="1508947379840" expanded="true" signature="1644:1677" ph="select count... users" />
-            <marker date="1508947379840" expanded="true" signature="1767:1808" ph="select count... notifications" />
-            <marker date="1508947379840" expanded="true" signature="1895:1933" ph="select count... categories" />
-            <marker date="1508947379840" expanded="true" signature="2024:2116" ph="select count... users" />
-            <marker date="1508947379840" expanded="true" signature="2208:2333" ph="select devic... users" />
-            <marker date="1508947379840" expanded="true" signature="2406:2530" ph="select devic... users" />
-            <marker date="1508947379840" expanded="true" signature="2610:2888" ph="SELECT conca... users" />
-            <marker date="1508947379840" expanded="true" signature="2647:2673" ph="SELECT COUNT... users" />
-            <marker date="1508947379840" expanded="true" signature="2753:2779" ph="SELECT COUNT... users" />
-            <marker date="1508947379840" expanded="true" signature="3372:3649" ph="SELECT conca... users" />
-            <marker date="1508947379840" expanded="true" signature="3409:3435" ph="SELECT COUNT... users" />
-            <marker date="1508947379840" expanded="true" signature="3515:3541" ph="SELECT COUNT... users" />
-            <marker date="1508947379840" expanded="true" signature="4135:4193" ph="select count... users" />
-            <marker date="1508947379840" expanded="true" signature="4277:4336" ph="select count... users" />
-            <marker date="1508947379840" expanded="true" signature="4714:4871" ph="select * fro... admin" />
-            <marker date="1508947379840" expanded="true" signature="5283:5317" ph="select cat_n... categories" />
-            <marker date="1508947379840" expanded="true" signature="5670:5689" ph="select * fro... admin" />
-            <marker date="1508947379840" expanded="true" signature="14205:14278" ph="select cat_n... categories" />
-            <marker date="1508947379840" expanded="true" signature="16458:16761" ph="SELECT last_... users" />
-            <marker date="1508947379840" expanded="true" signature="21498:21557" ph="select gcm_i... users" />
-            <marker date="1508947379840" expanded="true" signature="26515:26791" ph="SELECT gcm_i... users" />
-            <marker date="1508947379840" expanded="true" signature="31963:32046" ph="SELECT cat_s... categories" />
-            <marker date="1508947379840" expanded="true" signature="34564:34598" ph="select cat_n... categories" />
-            <marker date="1508947379840" expanded="true" signature="37556:37626" ph="select * fro... admin" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/send_noty.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1696">
-          <caret line="143" column="53" lean-forward="false" selection-start-line="143" selection-start-column="44" selection-end-line="143" selection-end-column="53" />
+        <state relative-caret-position="392">
+          <caret line="40" column="61" lean-forward="false" selection-start-line="40" selection-start-column="61" selection-end-line="40" selection-end-column="61" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="16" column="59" lean-forward="false" selection-start-line="16" selection-start-column="59" selection-end-line="16" selection-end-column="59" />
+        <state relative-caret-position="364">
+          <caret line="22" column="61" lean-forward="false" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="61" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/FileNotifications.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="181" column="154" lean-forward="false" selection-start-line="181" selection-start-column="154" selection-end-line="181" selection-end-column="154" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/admincontroller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1218">
+          <caret line="946" column="0" lean-forward="false" selection-start-line="946" selection-start-column="0" selection-end-line="946" selection-end-column="0" />
+          <folding>
+            <element signature="e#40#59#0#PHP" expanded="true" />
+            <marker date="1509024103764" expanded="true" signature="1644:1677" ph="select count... users" />
+            <marker date="1509024103764" expanded="true" signature="1767:1808" ph="select count... notifications" />
+            <marker date="1509024103764" expanded="true" signature="1895:1933" ph="select count... categories" />
+            <marker date="1509024103764" expanded="true" signature="2024:2116" ph="select count... users" />
+            <marker date="1509024103764" expanded="true" signature="2208:2333" ph="select devic... users" />
+            <marker date="1509024103764" expanded="true" signature="2406:2530" ph="select devic... users" />
+            <marker date="1509024103764" expanded="true" signature="2610:2888" ph="SELECT conca... users" />
+            <marker date="1509024103764" expanded="true" signature="2647:2673" ph="SELECT COUNT... users" />
+            <marker date="1509024103764" expanded="true" signature="2753:2779" ph="SELECT COUNT... users" />
+            <marker date="1509024103764" expanded="true" signature="3372:3649" ph="SELECT conca... users" />
+            <marker date="1509024103764" expanded="true" signature="3409:3435" ph="SELECT COUNT... users" />
+            <marker date="1509024103764" expanded="true" signature="3515:3541" ph="SELECT COUNT... users" />
+            <marker date="1509024103764" expanded="true" signature="4135:4193" ph="select count... users" />
+            <marker date="1509024103764" expanded="true" signature="4277:4336" ph="select count... users" />
+            <marker date="1509024103764" expanded="true" signature="4714:4871" ph="select * fro... admin" />
+            <marker date="1509024103764" expanded="true" signature="5283:5317" ph="select cat_n... categories" />
+            <marker date="1509024103764" expanded="true" signature="5670:5689" ph="select * fro... admin" />
+            <marker date="1509024103764" expanded="true" signature="14205:14278" ph="select cat_n... categories" />
+            <marker date="1509024103764" expanded="true" signature="16458:16761" ph="SELECT last_... users" />
+            <marker date="1509024103764" expanded="true" signature="21498:21557" ph="select gcm_i... users" />
+            <marker date="1509024103764" expanded="true" signature="26515:26791" ph="SELECT gcm_i... users" />
+            <marker date="1509024103764" expanded="true" signature="31963:32046" ph="SELECT cat_s... categories" />
+            <marker date="1509024103764" expanded="true" signature="34564:34598" ph="select cat_n... categories" />
+            <marker date="1509024103764" expanded="true" signature="37556:37626" ph="select * fro... admin" />
+            <marker date="1509024103764" expanded="true" signature="39820:39854" ph="select cat_n... categories" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/users.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="308" column="51" lean-forward="false" selection-start-line="308" selection-start-column="51" selection-end-line="308" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/dataTables/datatables.net/js/jquery.dataTables.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-35476">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1502447206112" expanded="true" signature="156778:156803" ph="..." />
+            <marker date="1502447206112" expanded="true" signature="157025:157050" ph="..." />
+            <marker date="1502447206112" expanded="true" signature="424468:424476" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/dataTables/jszip/lib/load.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/dataTables/datatables.net-scroller-bs/css/scroller.bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/dataTables/datatables.net-scroller-bs/css/scroller.bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/TestData/description/foo.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layout/footer.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="538">
+          <caret line="73" column="41" lean-forward="false" selection-start-line="73" selection-start-column="41" selection-end-line="73" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layout/header.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="120" column="42" lean-forward="false" selection-start-line="120" selection-start-column="42" selection-end-line="120" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/report.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="127" column="31" lean-forward="true" selection-start-line="127" selection-start-column="31" selection-end-line="127" selection-end-column="31" />
+          <folding>
+            <element signature="e#4724#4755#0#HTML" expanded="true" />
+            <marker date="1509026396299" expanded="false" signature="4416:4427" ph="..." />
+            <marker date="1509026396299" expanded="false" signature="5965:5973" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/admin/send_loc_noty.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="196" column="43" lean-forward="false" selection-start-line="196" selection-start-column="43" selection-end-line="196" selection-end-column="43" />
+        <state relative-caret-position="648">
+          <caret line="207" column="14" lean-forward="false" selection-start-line="207" selection-start-column="14" selection-end-line="207" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/MqttController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="73" column="50" lean-forward="false" selection-start-line="73" selection-start-column="50" selection-end-line="73" selection-end-column="50" />
+        <state relative-caret-position="2408">
+          <caret line="86" column="37" lean-forward="false" selection-start-line="86" selection-start-column="37" selection-end-line="86" selection-end-column="37" />
           <folding>
             <element signature="e#40#57#0#PHP" expanded="true" />
-            <marker date="1508953651419" expanded="true" signature="8691:8774" ph="SELECT cat_s... categories" />
-            <marker date="1508953651419" expanded="true" signature="13871:13954" ph="SELECT cat_s... categories" />
-            <marker date="1508953651419" expanded="true" signature="14114:14151" ph="SELECT gcm_i... users" />
-            <marker date="1508953651419" expanded="true" signature="14114:14152" ph="SELECT gcm_i... users" />
-            <marker date="1508953651419" expanded="true" signature="14114:14169" ph="SELECT gcm_i... users" />
-            <marker date="1508953651419" expanded="true" signature="14114:14170" ph="SELECT gcm_i... users" />
-            <marker date="1508953651419" expanded="true" signature="19198:19474" ph="SELECT gcm_i... users" />
-            <marker date="1508953651419" expanded="true" signature="20089:20125" ph="insert into test... " />
-            <marker date="1508953651419" expanded="true" signature="20089:20126" ph="insert into test... " />
-            <marker date="1508953651419" expanded="true" signature="20089:20151" ph="insert into test... " />
-            <marker date="1508953651419" expanded="true" signature="20089:20154" ph="insert into test... " />
-            <marker date="1508953651419" expanded="true" signature="20089:20156" ph="insert into test... " />
-            <marker date="1508953651419" expanded="true" signature="20089:20206" ph="insert into test... " />
+            <marker date="1509027216284" expanded="true" signature="8665:8748" ph="SELECT cat_s... categories" />
+            <marker date="1509027216284" expanded="true" signature="13845:13928" ph="SELECT cat_s... categories" />
+            <marker date="1509027216284" expanded="true" signature="14088:14125" ph="SELECT gcm_i... users" />
+            <marker date="1509027216284" expanded="true" signature="14088:14126" ph="SELECT gcm_i... users" />
+            <marker date="1509027216284" expanded="true" signature="14088:14143" ph="SELECT gcm_i... users" />
+            <marker date="1509027216284" expanded="true" signature="14088:14144" ph="SELECT gcm_i... users" />
+            <marker date="1509027216284" expanded="true" signature="19172:19448" ph="SELECT gcm_i... users" />
+            <marker date="1509027216284" expanded="true" signature="20063:20099" ph="insert into test... " />
+            <marker date="1509027216284" expanded="true" signature="20063:20100" ph="insert into test... " />
+            <marker date="1509027216284" expanded="true" signature="20063:20125" ph="insert into test... " />
+            <marker date="1509027216284" expanded="true" signature="20063:20128" ph="insert into test... " />
+            <marker date="1509027216284" expanded="true" signature="20063:20130" ph="insert into test... " />
+            <marker date="1509027216284" expanded="true" signature="20063:20180" ph="insert into test... " />
           </folding>
         </state>
       </provider>

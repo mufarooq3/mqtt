@@ -949,5 +949,13 @@ class Admincontroller extends BaseController {
         return view('admin.report')->with('notifications',$user_notification);
     }
 
+    public function send_file_noty(){
+        if (Session::get('AdminData')) {
+            $categories = DB::select("select cat_name,id from categories");
+            return View::make('admin.FileNotifications', compact('categories'))->with('categories', $categories);
+        } else {
+            return Redirect::to('/')->with('loginError', 'Invalid Email or Password.');
+        }
+    }
 
 }

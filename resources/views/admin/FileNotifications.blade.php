@@ -130,6 +130,7 @@
             }
         });
         $(document).on("click", ".btnsendnoty", function (e) {
+//        $('#frmsubmit').submit();
             e.preventDefault();
             $(this).attr("disable", 'true');
             var data = new FormData($(this).parents('form')[0]);
@@ -140,7 +141,7 @@
             data.append("to", a);
 
             $.ajax({
-                url: '{{ action('MqttController@file_noty') }}',
+                url: '{{ action('MqttController@mass_noty') }}',
                 type: 'post',
                 data: data,
                 async: false,
@@ -178,42 +179,17 @@
                     <div class="panel-body">
                         <div class="panel widget">
                             <div class="panel-heading vd_bg-grey">
-                                <h3 class="panel-title" style="color:white"> <span class="menu-icon"> <i class="fa fa-dot-circle-o"></i> </span> Send Mass Notification </h3>
+                                <h3 class="panel-title" style="color:white"> <span class="menu-icon"> <i class="fa fa-dot-circle-o"></i> </span> Send File Notification </h3>
                             </div>
                             <div class="col-md-12">
                                 <br/>
                                 <div class="col-md-7">
                                     <form id="frmsubmit" enctype="multipart/form-data" method="post" action="{{action('MqttController@mass_noty')}}">
                                         <input type="hidden" name="multi_sel" id="multi_sel" value="on" />
-                                        <input type="hidden" name="_token" id="csrf-token" value="{{ Session::token() }}" />
-
+                                        <input type="hidden" name="_token" id="csrf-token" value="{{ Session::token() }}">
                                         <div class="form-group">
-                                            <label>Uplaod File</label>
-                                            <input type="file" name="user_list">
-                                            <label class="control-label">Select Categories</label>
-                                            <div class="controls">
-                                                <script type="text/javascript">
-                                                    $(document).ready(function () {
-                                                        $('#example-dropRight').multiselect({
-                                                            buttonWidth: '300px',
-                                                            dropRight: true,
-                                                            onChange: function (element, checked) {
-                                                                var selectedOptions = $('#example-dropRight').val();
-                                                            },
-                                                            enableCaseInsensitiveFiltering: true
-                                                        });
-                                                    });
-                                                </script>
-
-                                                <select class="form-control main_cat" name="cat_id[]" id="example-dropRight" multiple="multiple">
-                                                    <?php
-                                                    foreach ($categories as $val) {
-                                                    ?>
-                                                    <option value="<?php echo $val->id; ?>"><?php echo $val->cat_name; ?></option>
-                                                    <?php }
-                                                    ?>
-                                                </select>
-                                            </div>
+                                            <label class="control-label">Uplaod File</label>
+                                            <input class="form-control" type="file" name="user_list" accept=".csv">
                                         </div>
 
                                         <div id="android_div" class="form-group">

@@ -34,7 +34,7 @@ class MqttController extends Controller
             $n->save();
             $load["message_id"]=$n->nid;
             $payload["topic"]=$cats[$i]->cat_slug;
-            $payload["payload"]=json_encode($load);
+            $payload["payload"]=$load;
             $payload["qos"]=2;
             $payload["retain"]=false;
             $payload["client_id"]="";
@@ -84,7 +84,7 @@ class MqttController extends Controller
         $len=sizeof($users);
         for ($i=0; $i<$len; ++$i) {
             $payload["topic"]='$client/' . $users[$i];
-            $payload["payload"]=json_encode($load);
+            $payload["payload"]=$load;
             $payload["qos"]=2;
             $payload["retain"]=false;
             $payload["client_id"]="";

@@ -36,7 +36,15 @@
 
                             </a>
                         </li>
-                        
+
+                        <li>
+                            <a href="{{url()}}/send_file_noty">
+                                <span class="menu-icon"><i class="fa fa-list-alt"></i></span>
+                                <span class="menu-text">Notification</span>
+
+                            </a>
+                        </li>
+
                         <li>
                             <a href="{{url()}}/SendNoty">
                                 <span class="menu-icon"><i class="fa fa-list-alt"></i></span> 

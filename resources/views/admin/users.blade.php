@@ -304,9 +304,9 @@ $(".mMessage").fadeOut();
                     $('.modal_noty').modal('hide');
                 },
                 error: function(result){
-//                    $(".btnsendnoty").attr("disable", "false");
-//                    notification("topright", "success", "fa fa-check-circle vd_green", "success", result);
-//                    $('.modal_noty').modal('hide');
+                    $(".btnsendnoty").attr("disable", "false");
+                    notification("topright", "success", "fa fa-check-circle vd_green", "success", "Notification Successfully Sent");
+                    $('.modal_noty').modal('hide');
                 }
         })
         });

@@ -79,8 +79,8 @@
         <!-- Custom CSS -->
         <link href="{{url()}}/custom/custom.css" rel="stylesheet" type="text/css">
 
-        <link href="{{url()}}/plugins/dataTables/css/jquery.dataTables.min.css" rel="stylesheet" type="text/css">
-        <link href="{{url()}}/plugins/dataTables/css/dataTables.bootstrap.css" rel="stylesheet" type="text/css"> 
+        {{--<link href="{{url()}}/plugins/dataTables/css/jquery.dataTables.min.css" rel="stylesheet" type="text/css">--}}
+        {{--<link href="{{url()}}/plugins/dataTables/css/dataTables.bootstrap.css" rel="stylesheet" type="text/css"> --}}
 
 
 
@@ -93,9 +93,14 @@
         <script type="text/javascript" src="{{url()}}/js/bootstrap.min.js"></script> 
         <script type="text/javascript" src='{{url()}}/plugins/jquery-ui/jquery-ui.custom.min.js'></script>
 
-        <script type="text/javascript" src="{{url()}}/plugins/dataTables/jquery.dataTables.min.js"></script>
-      <!--   <script type="text/javascript" src="{{url()}}/js/dataTables.editor.min.js"></script> -->
-        <script type="text/javascript" src="{{url()}}/plugins/dataTables/dataTables.bootstrap.js"></script>
+        {{--<script type="text/javascript" src="{{url()}}/plugins/dataTables/jquery.dataTables.min.js"></script>--}}
+        {{--<script type="text/javascript" src="{{url()}}/plugins/dataTables/dataTables.bootstrap.js"></script>--}}
+
+        <link href="{{url()}}/plugins/dataTables/datatables.net-bs/css/dataTables.bootstrap.min.css" rel="stylesheet">
+        <link href="{{url()}}/plugins/dataTables/datatables.net-buttons-bs/css/buttons.bootstrap.min.css" rel="stylesheet">
+        <link href="{{url()}}/plugins/dataTables/datatables.net-fixedheader-bs/css/fixedHeader.bootstrap.min.css" rel="stylesheet">
+        <link href="{{url()}}/plugins/dataTables/datatables.net-responsive-bs/css/responsive.bootstrap.min.css" rel="stylesheet">
+        <link href="{{url()}}/plugins/dataTables/datatables.net-scroller-bs/css/scroller.bootstrap.css" rel="stylesheet">
 
 
         <!--[if lt IE 9]>
@@ -110,6 +115,10 @@
         <style>
             .vd_mega-menu-content::before{
                 border-color:transparent transparent #002d39;
+            }
+
+            .dt-buttons{
+                display: block !important;
             }
         </style>
     </head>    

@@ -25,7 +25,7 @@
                                             <div class="form-group">
                                                 <label class="col-sm-12">Date</label>
                                                 <div class="col-sm-4">
-                                                    <input  name="start_date" class="form-control input-group-lg reg_name" type="date">
+                                                    <input  id="start_date" name="start_date" class="form-control input-group-lg reg_name" type="date">
                                                 </div>
                                                 <div class="col-sm-4">
                                                     <input  name="end_date" class="form-control input-group-lg reg_name" type="date">
@@ -34,6 +34,13 @@
                                                     <button type="submit" class="btn btn-success ">Search</button>
                                                 </div>
                                             </div><!--/form-group-->
+
+                                            <script>
+                                                document.getElementById("start_date").onclick = function(e){
+//                                                    $("#start_date").datepicker().datepicker('show');
+
+                                                }
+                                            </script>
 
                                             <div class="form-group">
                                                 <label class="col-sm-12">Status</label>
@@ -54,15 +61,15 @@
 
                             </div>
 
-                            <div class="panel-heading vd_bg-grey" >
-                                <h3 class="panel-title" style="color:white"> <span class="menu-icon"> <i class="fa fa-dot-circle-o"></i> </span> Report </h3>
-                            </div>
+                            {{--<div class="panel-heading vd_bg-grey" >--}}
+                                {{--<h3 class="panel-title" style="color:white"> <span class="menu-icon"> <i class="fa fa-dot-circle-o"></i> </span> Report </h3>--}}
+                            {{--</div>--}}
 
-                            <div  class="panel-body table-responsive">
-                                <table id="example" class="table table-hover display">
+                            <div  class="panel-body">
+                                <table id="datatable" class="table table-striped table-bordered dt-responsive" style="width: 100% !important;">
                                     <thead>
                                     <tr>
-                                        <th></th>
+                                        {{--<th></th>--}}
                                         {{--<th style="width:5%"><input type="checkbox" value="" id='ckbCheckAll'/></th>--}}
                                         <th style="width:15%">Category</th>
                                         <th style="width:20%">Notification</th>
@@ -78,7 +85,7 @@
 
                                         @foreach($notifications as $noty)
                                             <tr>
-                                                <td style="width:5%"><input type="checkbox" value="" id='ckbCheckAll'/></td>
+                                                {{--<td style="width:5%"><input type="checkbox" value="" id='ckbCheckAll'/></td>--}}
                                                 <td>{{$noty->notification->title}}</td>
                                                 <td>{{$noty->notification->type}}</td>
                                                 <td>{{$noty->notification->message}}</td>
@@ -101,5 +108,54 @@
         </div>
     </div>
 </div>
+
+<script>
+    $(document).ready(function() {
+        var handleDataTableButtons = function() {
+            if ($("#datatable").length) {
+                $("#datatable").DataTable({
+                    dom: "Bfrtip",
+                    buttons: [
+                        {
+                            extend: "copy",
+                            className: "btn-sm"
+                        },
+                        {
+                            extend: "csv",
+                            className: "btn-sm"
+                        },
+                        {
+                            extend: "excel",
+                            className: "btn-sm"
+                        },
+                        {
+                            extend: "pdfHtml5",
+                            className: "btn-sm"
+                        },
+                        {
+                            extend: "print",
+                            className: "btn-sm"
+                        },
+                    ],
+                    order: [[ 3, 'asc' ]],
+                    columnDefs: [
+
+                    ],
+                    responsive: true
+                });
+            }
+        };
+
+        TableManageButtons = function() {
+            "use strict";
+            return {
+                init: function() {
+                    handleDataTableButtons();
+                }
+            };
+        }();
+        TableManageButtons.init();
+    });
+</script>
 
 @include('layout.footer')

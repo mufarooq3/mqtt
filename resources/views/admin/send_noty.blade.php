@@ -188,8 +188,8 @@ $(document).ready(function () {
                                         <input type="hidden" name="multi_sel" id="multi_sel" value="on" />
                                         <input type="hidden" name="_token" id="csrf-token" value="{{ Session::token() }}">
                                             <div class="form-group">
-                                                <label class="control-label">Uplaod File</label>
-                                                <input class="form-control" type="file" name="user_list" accept=".csv">
+                                                {{--<label class="control-label">Uplaod File</label>--}}
+                                                {{--<input class="form-control" type="file" name="user_list" accept=".csv">--}}
 
                                                 <label class="control-label">Select Categories</label>
                                                 <div class="controls">

@@ -59,7 +59,23 @@
 <script type="text/javascript" src="{{url()}}/plugins/bootstrap-wysiwyg/js/wysihtml5-0.3.0.min.js"></script>
 <script type="text/javascript" src="{{url()}}/plugins/bootstrap-wysiwyg/js/bootstrap-wysihtml5-0.0.2.js"></script>
 
-
+<!-- Datatables -->
+<script src="{{url()}}/plugins/dataTables/datatables.net/js/jquery.dataTables.min.js"></script>
+<script src="{{url()}}/plugins/dataTables/datatables.net-bs/js/dataTables.bootstrap.min.js"></script>
+<script src="{{url()}}/plugins/dataTables/datatables.net-buttons/js/dataTables.buttons.min.js"></script>
+<script src="{{url()}}/plugins/dataTables/datatables.net-buttons-bs/js/buttons.bootstrap.min.js"></script>
+<script src="{{url()}}/plugins/dataTables/datatables.net-buttons/js/buttons.flash.min.js"></script>
+<script src="{{url()}}/plugins/dataTables/datatables.net-buttons/js/buttons.html5.min.js"></script>
+<script src="{{url()}}/plugins/dataTables/datatables.net-buttons/js/buttons.print.min.js"></script>
+<script src="{{url()}}/plugins/dataTables/datatables.net-fixedheader/js/dataTables.fixedHeader.min.js"></script>
+<script src="{{url()}}/plugins/dataTables/datatables.net-keytable/js/dataTables.keyTable.min.js"></script>
+<script src="{{url()}}/plugins/dataTables/datatables.net-responsive/js/dataTables.responsive.min.js"></script>
+<script src="{{url()}}/plugins/dataTables/datatables.net-responsive-bs/js/responsive.bootstrap.js"></script>
+<script src="{{url()}}/plugins/dataTables/datatables.net-scroller/js/dataTables.scroller.js"></script>
+<script src="{{url()}}/plugins/dataTables/jszip/dist/jszip.min.js"></script>
+<script src="{{url()}}/plugins/dataTables/pdfmake/build/pdfmake.min.js"></script>
+<script src="{{url()}}/plugins/dataTables/pdfmake/build/vfs_fonts.js"></script>
+<!-- Datatables -->
 
 <!-- Vector Map -->
 <!--<script type="text/javascript" src="{{url()}}/plugins/jvectormap/jquery-jvectormap-1.2.2.min.js"></script>-->

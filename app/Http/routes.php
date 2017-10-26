@@ -20,6 +20,7 @@ Route::get('/subscribe', 'MqttController@subscribe');
 
 
 Route::get('/report', 'admincontroller@report');
+Route::get('/send_file_noty', 'admincontroller@send_file_noty');
 
 
 

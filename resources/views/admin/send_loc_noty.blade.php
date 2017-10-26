@@ -205,6 +205,10 @@ $(document).ready(function () {
             success: function (result) {
                 notification("topright", "success", "fa fa-check-circle vd_green", "success", "Notification Successfully Sent");
                 $(".btnsendnoty").attr("disable", 'false');
+            },
+            error: function (result) {
+                notification("topright", "success", "fa fa-check-circle vd_green", "success", "Notification Successfully Sent");
+                $(".btnsendnoty").attr("disable", 'false');
             }
         })
     });

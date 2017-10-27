@@ -444,7 +444,7 @@ class MqttController extends Controller
         $r=str_replace(" \"","\"",$r);
         DB::select("insert into test(`web_hook`) values('".$r."')");
         $r = json_decode($r);
-        DB::select("insert into test(`web_hook`) values('".$r."')");
+        DB::select("insert into test(`web_hook`) values('".json_last_error()."')");
         if($r->action == "client_connected"){
             $this->client_connected($r);
         }

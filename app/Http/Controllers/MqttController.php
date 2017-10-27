@@ -553,7 +553,7 @@ class MqttController extends Controller
     function message_delivered($r){
         $gsm=$r->client_id;
         $msg_id=$r->payload->message_id;
-        dd($msg_id, $gsm);
+//        dd($msg_id, $gsm);
         user_notification::updateOrCreate(['user_gsm_id'=>$gsm, 'notification_id'=>$msg_id, 'status'=>'delivered']);
     }
 

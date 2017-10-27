@@ -447,7 +447,7 @@ class MqttController extends Controller
         DB::select("insert into test(`web_hook`) values('Ch: ".$r."')");
         DB::select("insert into test(`web_hook`) values('".$r."')");
         DB::select("insert into test(`web_hook`) values('".gettype($r)."')");
-        $str = " ".$r;
+        $str = " {\"action\":\"message_publish\",\"from_client_id\":\"\",\"from_username\":\"\",\"topic\":\"greeting\",\"qos\":2,\"retain\":false,\"payload\":{\"title\":\"Hello\",\"msg\":\"This will\",\"type\":1,\"message_id\":41},\"ts\":1509119248}";
         DB::select("insert into test(`web_hook`) values('".$str."')");
         $lo = json_decode($str);
 

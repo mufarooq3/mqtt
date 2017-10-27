@@ -35,7 +35,7 @@ class MqttController extends Controller
             $n->save();
             $load["message_id"]=$n->nid;
             $payload["topic"]=$cats[$i]->cat_slug;
-            $payload["payload"]=json_encode($load);
+            $payload["payload"]=$load;
             $payload["qos"]=2;
             $payload["retain"]=false;
             $payload["client_id"]="";
@@ -441,15 +441,15 @@ class MqttController extends Controller
     public function emqhook(Request $request){
         //dummy insertion for testing
 //        DB::select("insert into test(`web_hook`) values('".$request->getContent()."')");
-        $r=str_replace(":\"{",":{",$request->getContent());
-        $r=str_replace("}\",","},",$r);
-        $r=str_replace(" \"","\"",$r);
+//        $r=str_replace(":\"{",":{",$request->getContent());
+//        $r=str_replace("}\",","},",$r);
+//        $r=str_replace(" \"","\"",$r);
 
+        $r=$request->getContent();
         $test=new TestModal();
         $test->web_hook=$r;
         $test->save();
-        $r=json_decode(json_decode(json_encode($r)));
-//        dd($r);
+        $r=json_decode($r);
 
 //        $id = DB::select("insert into test(`web_hook`) values('Ch: ".$r."')");
 //        dd($id);
@@ -458,7 +458,7 @@ class MqttController extends Controller
 //        $str = utf8_encode($r);
 //        DB::select("insert into test(`web_hook`) values('".$str."')");
 //        $lo = json_decode($str);
-//
+
         DB::select("insert into test(`web_hook`) values('".json_last_error()."')");
 //
 //        DB::select("insert into test(`web_hook`) values('".$lo."')");

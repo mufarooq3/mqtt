@@ -560,7 +560,7 @@ class MqttController extends Controller
     function message_acked($r){
         $gsm=$r->client_id;
         $msg_id=$r->payload->message_id;
-        user_notification::updateOrCreate(['user_gsm_id'=>$gsm, 'notification_id'=>$msg_id, 'status'=>'Send']);
+        user_notification::where(['user_gsm_id'=>$gsm, 'notification_id'=>$msg_id])->update(['status'=>'Send']);
     }
 
     function generateRandomString($length = 10) {

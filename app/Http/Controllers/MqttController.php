@@ -442,7 +442,7 @@ class MqttController extends Controller
         $r=str_replace(":\"{",":{",$request->getContent());
         $r=str_replace("}\",","},",$r);
         $r=str_replace(" \"","\"",$r);
-        DB::select("insert into test(`web_hook`) values('".var_dump($r)."')");
+        DB::select("insert into test(`web_hook`) values('".$r."')");
         $r = json_decode($r);
         DB::select("insert into test(`web_hook`) values('".json_last_error()."')");
 

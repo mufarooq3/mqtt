@@ -554,7 +554,12 @@ class MqttController extends Controller
         $gsm=$r->client_id;
         $msg_id=$r->payload->message_id;
 //        dd($msg_id, $gsm);
-        user_notification::updateOrCreate(['user_gsm_id'=>$gsm, 'notification_id'=>$msg_id, 'status'=>'delivered']);
+        $user_notification=new user_notification();
+        $user_notification->user_gsm_id=$gsm;
+        $user_notification->notification_id=$msg_id;
+        $user_notification->status='delivered';
+        $user_notification->save();
+//        user_notification::updateOrCreate(['user_gsm_id'=>$gsm, 'notification_id'=>$msg_id, 'status'=>'delivered']);
     }
 
     function message_acked($r){

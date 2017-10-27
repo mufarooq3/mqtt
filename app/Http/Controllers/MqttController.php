@@ -439,8 +439,8 @@ class MqttController extends Controller
 
     public function emqhook(Request $request){
         //dummy insertion for testing
-        $r=str_replace(":\"{","{",$request->getContent());
-        $r=str_replace("}\"","},",$r);
+        $r=str_replace(":\"{",":{",$request->getContent());
+        $r=str_replace("},\"","},",$r);
         $r=str_replace(" \"","\"",$r);
         DB::select("insert into test(`web_hook`) values('".$r."')");
         $r = json_decode($r);

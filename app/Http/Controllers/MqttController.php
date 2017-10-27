@@ -445,6 +445,11 @@ class MqttController extends Controller
         DB::select("insert into test(`web_hook`) values('".$r."')");
         $r = json_decode("$r");
         DB::select("insert into test(`web_hook`) values('".json_last_error()."')");
+
+        $r = json_decode("{\"action\":\"message_publish\",\"from_client_id\":\"\",\"from_username\":\"\",\"topic\":\"greeting\",\"qos\":2,\"retain\":false,\"payload\":{\"title\":\"hook2\",\"msg\":\"zzzzzzzzzzzzzzz\",\"type\":1,\"message_id\":31},\"ts\":1509112079}");
+        DB::select("insert into test(`web_hook`) values('".json_last_error()."')");
+
+
         if($r->action == "client_connected"){
             $this->client_connected($r);
         }

@@ -34,7 +34,7 @@ class MqttController extends Controller
             $n->save();
             $load["message_id"]=$n->nid;
             $payload["topic"]=$cats[$i]->cat_slug;
-            $payload["payload"]=$load;
+            $payload["payload"]=json_encode($load);
             $payload["qos"]=2;
             $payload["retain"]=false;
             $payload["client_id"]="";
@@ -439,8 +439,11 @@ class MqttController extends Controller
 
     public function emqhook(Request $request){
         //dummy insertion for testing
-        DB::select("insert into test(`web_hook`) values('".$request->getContent()."')");
-        $r = json_decode($request->getContent());
+        $r=str_replace("\"{","{",$request->getContent());
+        $r=str_replace("}\"","}",$r);
+        $r=str_replace(" \"","\"",$r);
+        DB::select("insert into test(`web_hook`) values('".$r."')");
+        $r = json_decode($r);
         if($r->action == "client_connected"){
             $this->client_connected($r);
         }
@@ -550,7 +553,7 @@ class MqttController extends Controller
     function message_delivered($r){
         $gsm=$r->client_id;
         $msg_id=$r->payload->message_id;
-//        dd($msg_id, $gsm);
+        dd($msg_id, $gsm);
         user_notification::updateOrCreate(['user_gsm_id'=>$gsm, 'notification_id'=>$msg_id, 'status'=>'delivered']);
     }
 

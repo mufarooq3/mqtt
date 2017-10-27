@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Category;
+use App\TestModal;
 use App\Mqtt\MQTT;
 use App\notification;
 use App\User;
@@ -444,17 +445,23 @@ class MqttController extends Controller
         $r=str_replace("}\",","},",$r);
         $r=str_replace(" \"","\"",$r);
 
-        DB::select("insert into test(`web_hook`) values('Ch: ".$r."')");
-        DB::select("insert into test(`web_hook`) values('".$r."')");
-        DB::select("insert into test(`web_hook`) values('".gettype($r)."')");
-        $str = utf8_encode($r);
-        DB::select("insert into test(`web_hook`) values('".$str."')");
-        $lo = json_decode($str);
+        $test=new TestModal();
+        $test->web_hook=$r;
+        $test->save();
+        $r=json_decode($test->web_hook);
 
+//        $id = DB::select("insert into test(`web_hook`) values('Ch: ".$r."')");
+//        dd($id);
+//        DB::select("insert into test(`web_hook`) values('".$r."')");
+//        DB::select("insert into test(`web_hook`) values('".gettype($r)."')");
+//        $str = utf8_encode($r);
+//        DB::select("insert into test(`web_hook`) values('".$str."')");
+//        $lo = json_decode($str);
+//
         DB::select("insert into test(`web_hook`) values('".json_last_error()."')");
-
-        DB::select("insert into test(`web_hook`) values('".$lo."')");
-        DB::select("insert into test(`web_hook`) values('1')");
+//
+//        DB::select("insert into test(`web_hook`) values('".$lo."')");
+//        DB::select("insert into test(`web_hook`) values('1')");
 
         if($r->action == "client_connected"){
             $this->client_connected($r);

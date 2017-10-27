@@ -448,7 +448,7 @@ class MqttController extends Controller
         $test=new TestModal();
         $test->web_hook=$r;
         $test->save();
-        $r=\GuzzleHttp\json_decode(TestModal::find($test->id)->web_hook);
+        $r=json_decode($r);
 
 //        $id = DB::select("insert into test(`web_hook`) values('Ch: ".$r."')");
 //        dd($id);

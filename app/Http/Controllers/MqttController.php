@@ -444,7 +444,7 @@ class MqttController extends Controller
         $test->web_hook=$r;
         $test->save();
         $r=json_decode($r);
-        $r->payload=json_decode($r->payload);
+//        dd($r);
 
 //        $id = DB::select("insert into test(`web_hook`) values('Ch: ".$r."')");
 //        dd($id);

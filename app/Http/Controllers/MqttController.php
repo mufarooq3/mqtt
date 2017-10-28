@@ -4,21 +4,15 @@ namespace App\Http\Controllers;
 
 use App\Category;
 use App\TestModal;
-use App\Mqtt\MQTT;
 use App\notification;
 use App\User;
 use App\user_notification;
 use App\UserCategory;
-use Faker\Provider\DateTime;
 use Illuminate\Http\Request;
-
-use App\Http\Requests;
-use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Input;
 use Illuminate\Support\Facades\Session;
 use Illuminate\Support\Facades\Validator;
-use function MongoDB\BSON\toJSON;
 
 class MqttController extends Controller
 {
@@ -35,7 +29,7 @@ class MqttController extends Controller
             $n->save();
             $load["message_id"]=$n->nid;
             $payload["topic"]=$cats[$i]->cat_slug;
-            $payload["payload"]=$load;
+            $payload["payload"]=json_encode($load);
             $payload["qos"]=2;
             $payload["retain"]=false;
             $payload["client_id"]="";

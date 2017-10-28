@@ -454,7 +454,7 @@ class MqttController extends Controller
 //        DB::select("insert into test(`web_hook`) values('".$str."')");
 //        $lo = json_decode($str);
 
-        DB::select("insert into test(`web_hook`) values('".json_last_error()."+".$r->action."')");
+        DB::select("insert into test(`web_hook`) values('".json_last_error()."+".$r."')");
 //
 //        DB::select("insert into test(`web_hook`) values('".$lo."')");
 //        DB::select("insert into test(`web_hook`) values('1')");

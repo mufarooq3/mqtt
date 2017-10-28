@@ -434,7 +434,7 @@ class MqttController extends Controller
 
     public function emqhook(Request $request){
         //dummy insertion for testing
-//        DB::select("insert into test(`web_hook`) values('".$request->getContent()."')");
+        DB::select("insert into test(`web_hook`) values('".$request->getContent()."')");
 //        $r=str_replace(":\"{",":{",$request->getContent());
 //        $r=str_replace("}\",","},",$r);
 //        $r=str_replace(" \"","\"",$r);
@@ -444,7 +444,6 @@ class MqttController extends Controller
         $test->web_hook=$r;
         $test->save();
         $r=json_decode($r);
-//        dd($r);
 
 //        $id = DB::select("insert into test(`web_hook`) values('Ch: ".$r."')");
 //        dd($id);
@@ -454,7 +453,7 @@ class MqttController extends Controller
 //        DB::select("insert into test(`web_hook`) values('".$str."')");
 //        $lo = json_decode($str);
 
-        DB::select("insert into test(`web_hook`) values('".json_last_error()."+"."')");
+        DB::select("insert into test(`web_hook`) values('".json_last_error()."+".$r->action."')");
 //
 //        DB::select("insert into test(`web_hook`) values('".$lo."')");
 //        DB::select("insert into test(`web_hook`) values('1')");

@@ -915,38 +915,43 @@ class Admincontroller extends BaseController {
 
     public function report(){
         $request=$_GET;
-        if(!isset($request['status']))
-            $request['status']='all';
+//        if(!isset($request['status']))
+//            $request['status']='all';
+//
+//        if($request['status']=='all') {
+//            $query="SELECT n.*, count(case when un.status='send' then 1 end) as send, count(case when un.status='delivered' then 1 end) as delivered from notifications n INNER JOIN user_notifications un on n.nid=un.notification_id GROUP BY un.notification_id";
+//            $user_notification = user_notification::whereRaw('status in ("delivered","send")');
+//        }
+//        else if($request['status']=='pending'){
+//            $user_notification = user_notification::where('status','delivered');
+////            dd($user_notification);
+//        }
+//        else if($request['status']=='send'){
+//            $user_notification = user_notification::where('status','send');
+//        }
 
-        if($request['status']=='all') {
-            $user_notification = user_notification::whereRaw('status in ("delivered","send")');
-        }
-        else if($request['status']=='pending'){
-            $user_notification = user_notification::where('status','delivered');
-//            dd($user_notification);
-        }
-        else if($request['status']=='send'){
-            $user_notification = user_notification::where('status','send');
-        }
 
-
+        $query="SELECT n.*, count(case when un.status='send' then 1 end) as send, count(case when un.status='delivered' then 1 end) as delivered from notifications n INNER JOIN user_notifications un on n.nid=un.notification_id GROUP BY un.notification_id";
         if(isset($request['start_date']) && $request['start_date']!=""){
-            $user_notification->where('created_at','>=',$request['start_date']);
+            $query="SELECT n.*, count(case when un.status='send' then 1 end) as send, count(case when un.status='delivered' then 1 end) as delivered from notifications n INNER JOIN user_notifications un on n.nid=un.notification_id where created_at >=". $request['start_date'] ."GROUP BY un.notification_id";
+//            $user_notification->where('created_at','>=',$request['start_date']);
         }
 
         if(isset($request['end_date']) && $request['end_date']!=""){
-            $user_notification->where('created_at','<=',$request['end_date']);
+            $query="SELECT n.*, count(case when un.status='send' then 1 end) as send, count(case when un.status='delivered' then 1 end) as delivered from notifications n INNER JOIN user_notifications un on n.nid=un.notification_id where created_at <=". $request['start_date'] ."GROUP BY un.notification_id";
+//            $user_notification->where('created_at','<=',$request['end_date']);
         }
 
-        $user_notification=$user_notification->get();
+//        $user_notification=$user_notification->get();
 
-        if($user_notification)
-            $user_notification->load(['notification']);
+//        if($user_notification)
+//            $user_notification->load(['notification']);
 
 //        dd($user_notification);
+        $notification=DB::SELECT($query);
+//        dd($notification);
 
-
-        return view('admin.report')->with('notifications',$user_notification);
+        return view('admin.report')->with('notifications',$notification);
     }
 
     public function send_file_noty(){

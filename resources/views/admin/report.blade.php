@@ -72,11 +72,12 @@
                                         {{--<th></th>--}}
                                         {{--<th style="width:5%"><input type="checkbox" value="" id='ckbCheckAll'/></th>--}}
                                         <th style="width:15%">Category</th>
-                                        <th style="width:20%">Notification</th>
+                                        <th style="width:20%">Notification Type</th>
                                         <th style="width:25%">Title</th>
                                         <th style="width:25%">Message</th>
                                         <th style="width:25%">End Date/Time</th>
-                                        <th style="width:10%">Status</th>
+                                        <th style="width:10%">Send</th>
+                                        <th style="width:10%">Pending</th>
                                         {{--<th style="width:10%">Pending</th>--}}
                                         {{--<th style="width:10%">Fail</th>--}}
                                     </tr>
@@ -86,12 +87,13 @@
                                         @foreach($notifications as $noty)
                                             <tr>
                                                 {{--<td style="width:5%"><input type="checkbox" value="" id='ckbCheckAll'/></td>--}}
-                                                <td>{{$noty->notification->title}}</td>
-                                                <td>{{$noty->notification->type}}</td>
-                                                <td>{{$noty->notification->message}}</td>
-                                                <td>{{$noty->notification->payload}}</td>
-                                                <td>{{$noty->notification->deletion_date}}</td>
-                                                <td>{{$noty->status}}</td>
+                                                <td>{{$noty->title}}</td>
+                                                <td>{{$noty->type}}</td>
+                                                <td>{{$noty->message}}</td>
+                                                <td>{{$noty->payload}}</td>
+                                                <td>{{$noty->deletion_date}}</td>
+                                                <td>{{$noty->delivered}}</td>
+                                                <td>{{$noty->send}}</td>
                                                 {{--<td>{{$noty->pending}}</td>--}}
                                                 {{--<td>{{$noty->fail}}</td>--}}
                                             </tr>

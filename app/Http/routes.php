@@ -21,6 +21,7 @@ Route::get('/subscribe', 'MqttController@subscribe');
 
 Route::get('/report', 'admincontroller@report');
 Route::get('/send_file_noty', 'admincontroller@send_file_noty');
+Route::get('/get_valid_notifications', 'ApiController@get_valid_notifications');
 
 
 

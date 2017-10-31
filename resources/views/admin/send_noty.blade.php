@@ -256,7 +256,27 @@ $(document).ready(function () {
                                                 <input id="prependedInput"  class="span10 black" name="link" placeholder="Link to be open" type="text"/>
                                             </div>
                                         </div>
-                                       
+
+                                        <div class="form-group row">
+                                            <div class="col-sm-6">
+                                                <label for="start_date">Start Date</label>
+                                                <input name="start_date" class="form-control datepicker">
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <label for="start_date">End Date</label>
+                                                <input name="end_date" class="form-control datepicker">
+                                            </div>
+                                            <div class="col-sm-12" style="margin-top: 20px">
+                                                <input type="checkbox" name="delete" id="delete">
+                                                <label for="delete">Tick box for automatically delete, when end date is reached</label>
+                                            </div>
+                                        </div><!--/form-group-->
+                                        <script>
+                                            $( function() {
+                                                $( ".datepicker" ).datepicker();
+                                            } );
+                                        </script>
+
                                         <div class="form-group">
                                             <div class="row-fluid">
                                                 <button type="button" id="btn-loading" class="btn btn-primary btnsendnoty" data-loading-text="Loading...">Send Now</button>

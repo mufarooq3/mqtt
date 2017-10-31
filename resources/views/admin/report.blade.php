@@ -25,10 +25,10 @@
                                             <div class="form-group">
                                                 <label class="col-sm-12">Date</label>
                                                 <div class="col-sm-4">
-                                                    <input  id="start_date" name="start_date" class="form-control input-group-lg reg_name" type="date">
+                                                    <input name="start_date" class="form-control datepicker">
                                                 </div>
                                                 <div class="col-sm-4">
-                                                    <input  name="end_date" class="form-control input-group-lg reg_name" type="date">
+                                                    <input  name="end_date" class="form-control datepicker">
                                                 </div>
                                                 <div class="col-sm-2">
                                                     <button type="submit" class="btn btn-success ">Search</button>
@@ -36,10 +36,9 @@
                                             </div><!--/form-group-->
 
                                             <script>
-                                                document.getElementById("start_date").onclick = function(e){
-//                                                    $("#start_date").datepicker().datepicker('show');
-
-                                                }
+                                                $( function() {
+                                                    $( ".datepicker" ).datepicker();
+                                                } );
                                             </script>
 
                                             <div class="form-group">

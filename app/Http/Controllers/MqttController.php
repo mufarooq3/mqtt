@@ -8,6 +8,7 @@ use App\notification;
 use App\User;
 use App\user_notification;
 use App\UserCategory;
+use DateTime;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Input;
@@ -25,6 +26,15 @@ class MqttController extends Controller
             $n->message="Thank for using wing service";
             $n->payload=json_encode($load);
             $n->saved=1;
+            if(isset($load['start_date']) && isset($load['end_date'])) {
+                $myDateTime = DateTime::createFromFormat('m/d/Y', $load['start_date']);
+                $start_date = $myDateTime->format('Y-m-d');
+                $myDateTime = DateTime::createFromFormat('m/d/Y', $load['end_date']);
+                $end_date = $myDateTime->format('Y-m-d');
+                $n->start_date = $start_date;
+                $n->deletion_date = $end_date;
+            }
+//            dd($n);
 //            $n->deletion_date=time();
             $n->save();
             $load["message_id"]=$n->nid;
@@ -73,13 +83,17 @@ class MqttController extends Controller
         $n->message="Thank for using wing service";
         $n->payload=json_encode($load);
         $n->saved=1;
+        if(isset($load['start_date']) && isset($load['end_date'])) {
+            $n->start_date = $load['start_date'];
+            $n->deletion_date = $load['end_date'];
+        }
         $n->save();
         $load["message_id"]=$n->nid;
 
         $len=sizeof($users);
         for ($i=0; $i<$len; ++$i) {
             $payload["topic"]='$client/' . $users[$i];
-            $payload["payload"]=$load;
+            $payload["payload"]=json_encode($load);
             $payload["qos"]=2;
             $payload["retain"]=false;
             $payload["client_id"]="";
@@ -192,11 +206,24 @@ class MqttController extends Controller
             if(Input::file('user_list')){
                 $file=file_get_contents(Input::file('user_list'));
                 $users=explode(',',$file);
+                $load['start_date']=$_POST['start_date'];
+                $load['end_date']=$_POST['end_date'];
+                if(isset($_POST['delete']))
+                    $load['delete_automatically']='yes';
+                else
+                    $load['delete_automatically']='no';
                 $this->publish_single($load,$users);
             }
             else {
                 $q = "SELECT cat_slug from categories where id in(" . implode(',', $_POST['cat_id']) . ")";
                 $cats = DB::select($q);
+                $load['start_date']=$_POST['start_date'];
+                $load['end_date']=$_POST['end_date'];
+                if(isset($_POST['delete']))
+                    $load['delete_automatically']='yes';
+                else
+                    $load['delete_automatically']='no';
+
                 $this->publish($load, $cats);
             }
             //$this->topic_noty($cats, $load);
@@ -454,9 +481,6 @@ class MqttController extends Controller
 //        $lo = json_decode($str);
 
 //        $r->paload=json_decode($r->payload);
-        $payload=json_decode($r->payload);
-        $r->payload=$payload;
-        DB::select("insert into test(`web_hook`) values('".json_last_error()."+".$payload->message_id."')");
 //
 //        DB::select("insert into test(`web_hook`) values('".$lo."')");
 //        DB::select("insert into test(`web_hook`) values('1')");
@@ -474,9 +498,15 @@ class MqttController extends Controller
             $this->client_unsubscribe($r);
         }
         else if($r->action == "message_delivered"){
+            $payload=json_decode($r->payload);
+            $r->payload=$payload;
+            DB::select("insert into test(`web_hook`) values('".json_last_error()."+".$payload."')");
             $this->message_delivered($r);
         }
         else if($r->action == "message_acked"){
+            $payload=json_decode($r->payload);
+            $r->payload=$payload;
+            DB::select("insert into test(`web_hook`) values('".json_last_error()."+".$payload."')");
             $this->message_acked($r);
         }
     }

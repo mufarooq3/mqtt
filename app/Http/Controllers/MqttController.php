@@ -472,6 +472,7 @@ class MqttController extends Controller
         $test->save();
         $r=json_decode($r);
 
+
 //        $id = DB::select("insert into test(`web_hook`) values('Ch: ".$r."')");
 //        dd($id);
 //        DB::select("insert into test(`web_hook`) values('".$r."')");
@@ -500,13 +501,14 @@ class MqttController extends Controller
         else if($r->action == "message_delivered"){
             $payload=json_decode($r->payload);
             $r->payload=$payload;
-            DB::select("insert into test(`web_hook`) values('".json_last_error()."+".$payload."')");
+            DB::select("insert into test(`web_hook`) values('".json_last_error()."+".json_encode($payload)."')");
             $this->message_delivered($r);
         }
         else if($r->action == "message_acked"){
+//            dd(json_decode($r->payload));
             $payload=json_decode($r->payload);
             $r->payload=$payload;
-            DB::select("insert into test(`web_hook`) values('".json_last_error()."+".$payload."')");
+            DB::select("insert into test(`web_hook`) values('".json_last_error()."+".json_encode($payload)."')");
             $this->message_acked($r);
         }
     }
@@ -600,7 +602,6 @@ class MqttController extends Controller
     function message_delivered($r){
         $gsm=$r->client_id;
         $msg_id=$r->payload->message_id;
-//        dd($msg_id, $gsm);
         $user_notification=new user_notification();
         $user_notification->user_gsm_id=$gsm;
         $user_notification->notification_id=$msg_id;

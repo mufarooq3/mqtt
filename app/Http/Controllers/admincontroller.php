@@ -933,12 +933,16 @@ class Admincontroller extends BaseController {
 
         $query="SELECT n.*, count(case when un.status='send' then 1 end) as send, count(case when un.status='delivered' then 1 end) as delivered from notifications n INNER JOIN user_notifications un on n.nid=un.notification_id GROUP BY un.notification_id";
         if(isset($request['start_date']) && $request['start_date']!=""){
-            $query="SELECT n.*, count(case when un.status='send' then 1 end) as send, count(case when un.status='delivered' then 1 end) as delivered from notifications n INNER JOIN user_notifications un on n.nid=un.notification_id where created_at >=". $request['start_date'] ."GROUP BY un.notification_id";
+            $myDateTime = DateTime::createFromFormat('m/d/Y', $request['start_date']);
+            $start_date = $myDateTime->format('Y-m-d');
+            $query="SELECT n.*, count(case when un.status='send' then 1 end) as send, count(case when un.status='delivered' then 1 end) as delivered from notifications n INNER JOIN user_notifications un on n.nid=un.notification_id where created_at >='". $start_date ."' GROUP BY un.notification_id";
 //            $user_notification->where('created_at','>=',$request['start_date']);
         }
 
         if(isset($request['end_date']) && $request['end_date']!=""){
-            $query="SELECT n.*, count(case when un.status='send' then 1 end) as send, count(case when un.status='delivered' then 1 end) as delivered from notifications n INNER JOIN user_notifications un on n.nid=un.notification_id where created_at <=". $request['start_date'] ."GROUP BY un.notification_id";
+            $myDateTime = DateTime::createFromFormat('m/d/Y', $request['end_date']);
+            $end_date = $myDateTime->format('Y-m-d');
+            $query="SELECT n.*, count(case when un.status='send' then 1 end) as send, count(case when un.status='delivered' then 1 end) as delivered from notifications n INNER JOIN user_notifications un on n.nid=un.notification_id where created_at <='". $end_date ."' GROUP BY un.notification_id";
 //            $user_notification->where('created_at','<=',$request['end_date']);
         }
 

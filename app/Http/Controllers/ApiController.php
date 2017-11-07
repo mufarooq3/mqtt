@@ -13,7 +13,7 @@ class ApiController extends Controller
 
     public function get_valid_notifications(Request $request){
         $title=$request->category;
-        $data=notification::where('deletion_date', '>=', date('Y/m/d'))
+        $data=notification::select("message")->where('deletion_date', '>=', date('Y/m/d'))
             ->where('title',$title)
             ->get();
         return json_encode($data);

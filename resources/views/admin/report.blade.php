@@ -90,7 +90,7 @@
                                                 <td>{{$noty->title}}</td>
                                                 <td>{{$noty->type}}</td>
                                                 <td>{{$noty->message}}</td>
-                                                <td>{{json_decode($noty->payload)->msg}}</td>
+                                                <td>{{$noty->payload}}</td>
                                                 <td>{{$noty->deletion_date}}</td>
                                                 <td>{{$noty->delivered}}</td>
                                                 <td>{{$noty->send}}</td>

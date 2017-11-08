@@ -24,7 +24,7 @@ class MqttController extends Controller
             $n->type=$load['type'];
             $n->title=$cats[$i]->cat_slug;
             $n->message="Thank for using wing service";
-            $n->payload=json_encode($load);
+            $n->payload=$load["msg"];
             $n->saved=1;
             if(isset($load['start_date']) && isset($load['end_date'])) {
                 $myDateTime = DateTime::createFromFormat('m/d/Y', $load['start_date']);
@@ -81,7 +81,7 @@ class MqttController extends Controller
         $n->type=$load['type'];
         $n->title=$load['title'];
         $n->message="Thank for using wing service";
-        $n->payload=json_encode($load);
+        $n->payload=$load["msg"];
         $n->saved=1;
         if(isset($load['start_date']) && isset($load['end_date'])) {
             $n->start_date = $load['start_date'];

@@ -25,10 +25,10 @@
                                             <div class="form-group">
                                                 <label class="col-sm-12">Date</label>
                                                 <div class="col-sm-4">
-                                                    <input name="start_date" class="form-control datepicker">
+                                                    <input name="start_date" class="form-control datepicker" placeholder="Start Date">
                                                 </div>
                                                 <div class="col-sm-4">
-                                                    <input  name="end_date" class="form-control datepicker">
+                                                    <input  name="end_date" class="form-control datepicker" placeholder="End Date">
                                                 </div>
                                                 <div class="col-sm-2">
                                                     <button type="submit" class="btn btn-success ">Search</button>
@@ -86,10 +86,11 @@
                                         @foreach($notifications as $noty)
                                             <tr>
                                                 {{--<td style="width:5%"><input type="checkbox" value="" id='ckbCheckAll'/></td>--}}
+
                                                 <td>{{$noty->title}}</td>
                                                 <td>{{$noty->type}}</td>
                                                 <td>{{$noty->message}}</td>
-                                                <td>{{$noty->payload}}</td>
+                                                <td>{{json_decode($noty->payload)->msg}}</td>
                                                 <td>{{$noty->deletion_date}}</td>
                                                 <td>{{$noty->delivered}}</td>
                                                 <td>{{$noty->send}}</td>

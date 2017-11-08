@@ -70,11 +70,11 @@
                                     <tr>
                                         {{--<th></th>--}}
                                         {{--<th style="width:5%"><input type="checkbox" value="" id='ckbCheckAll'/></th>--}}
-                                        <th style="width:15%">Category</th>
-                                        <th style="width:20%">Type</th>
+                                        <th style="width:10%">Category</th>
+                                        <th style="width:10%">Type</th>
                                         <th style="width:25%">Title</th>
                                         <th style="width:25%">Message</th>
-                                        <th style="width:25%">End Date/Time</th>
+                                        <th style="width:10%">End Date/Time</th>
                                         <th style="width:10%">Send</th>
                                         <th style="width:10%">Pending</th>
                                         {{--<th style="width:10%">Pending</th>--}}
@@ -90,7 +90,7 @@
                                                 <td>{{$noty->title}}</td>
                                                 <td>{{$noty->type}}</td>
                                                 <td>{{$noty->message}}</td>
-                                                <td>{{($noty->payload)}}</td>
+                                                <td>{{json_decode($noty->payload)->msg}}</td>
                                                 <td>{{$noty->deletion_date}}</td>
                                                 <td>{{$noty->delivered}}</td>
                                                 <td>{{$noty->send}}</td>

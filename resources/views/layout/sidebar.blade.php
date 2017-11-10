@@ -1,6 +1,6 @@
 <div class="content">
     <div class="container">
-        <div class="vd_navbar vd_nav-width vd_navbar-tabs-menu vd_navbar-left" style="background-color:#088BA9">
+        <div class="vd_navbar vd_nav-width vd_navbar-tabs-menu vd_navbar-left" style="background-color:#B1C025">
             <!--            <div class="navbar-tabs-menu clearfix">
                         </div>-->
             <div class="navbar-menu clearfix">

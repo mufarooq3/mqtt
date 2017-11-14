@@ -23,7 +23,7 @@ class MqttController extends Controller
             $n=new notification();
             $n->type=$load['type'];
             $n->title=$cats[$i]->cat_slug;
-            $n->message="Thank for using wing service";
+            $n->message=$load['msg'];
             $n->payload=json_encode($load);
             $n->saved=1;
             if(isset($load['start_date']) && isset($load['end_date'])) {
@@ -80,7 +80,7 @@ class MqttController extends Controller
         $n=new notification();
         $n->type=$load['type'];
         $n->title=$load['title'];
-        $n->message="Thank for using wing service";
+        $n->message=$load['msg'];
         $n->payload=json_encode($load);
         $n->saved=1;
         if(isset($load['start_date']) && isset($load['end_date'])) {

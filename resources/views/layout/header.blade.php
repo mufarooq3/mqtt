@@ -59,7 +59,7 @@
         <link href="{{url()}}/plugins/introjs/css/introjs.min.css" rel="stylesheet" type="text/css">    -->
 
         <!-- Theme CSS -->
-        <link href="{{url()}}/css/theme.min.css" rel="stylesheet" type="text/css">
+        <link href="{{url()}}/css/theme.css" rel="stylesheet" type="text/css">
         <!--[if IE]> <link href="css/ie.css" rel="stylesheet" > <![endif]-->
         <link href="{{url()}}/css/chrome.css" rel="stylesheet" type="text/chrome"> <!-- chrome only css -->    
 
@@ -130,7 +130,7 @@
         <div class="vd_body">
             <!-- Header Start -->
             <header class="header-1" id="header" >
-                <div class="vd_top-menu-wrapper" style="background-color:#002d39">
+                <div class="vd_top-menu-wrapper" style="background-color:#0099D8">
                     <div class="container">
                         <div class="vd_top-nav vd_nav-width  ">
                             <div class="vd_panel-header">

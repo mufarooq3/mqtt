@@ -1417,11 +1417,11 @@ div.tagsinput span.tag a {
   opacity: 1;
   filter: alpha(opacity=100);
 }
-.ui-datepicker .ui-datepicker-calendar {
-  width: 260px;
-  margin-left: 10px;
-  margin-bottom: 10px;
-}
+/*.ui-datepicker .ui-datepicker-calendar {*/
+  /*width: 260px;*/
+  /*margin-left: 10px;*/
+  /*margin-bottom: 10px;*/
+/*}*/
 .ui-datepicker th {
   color: #FFFFFF;
   opacity: 0.5;
@@ -3517,7 +3517,7 @@ header,
   background-color: #111111 !important;
 }
 .vd_bg-grey {
-  background-color: #777777 !important;
+  background-color: #0099D8 !important;
 }
 .vd_bg-dark-red {
   background-color: #724c3f !important;

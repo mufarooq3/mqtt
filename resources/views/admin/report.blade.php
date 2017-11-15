@@ -88,7 +88,17 @@
                                                 {{--<td style="width:5%"><input type="checkbox" value="" id='ckbCheckAll'/></td>--}}
 
                                                 <td>{{$noty->title}}</td>
-                                                <td>{{$noty->type}}</td>
+                                                <td>
+                                                    @if($noty->type==1)
+                                                        Simple Notification
+                                                    @elseif($noty->type==2)
+                                                        Image Notification
+                                                    @elseif($noty->type==3)
+                                                        Web Activity
+                                                    @elseif($noty->type==4)
+                                                        News [Saved in phone]
+                                                    @endif
+                                                </td>
                                                 <td>{{json_decode($noty->payload)->title}}</td>
                                                 <td>{{$noty->message}}</td>
                                                 <td>{{$noty->deletion_date}}</td>
